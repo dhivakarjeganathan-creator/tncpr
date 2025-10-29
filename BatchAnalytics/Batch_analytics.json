@@ -1,0 +1,744 @@
+[
+    {
+        "JOB_NAME": "ACPF.SetupFailure5",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "ACPF",
+            "focalType": "resourceType",
+            "granularity": "1-hour",
+            "jobDelay": 4,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDC.SetupFailure"
+                },
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDC.SetupFailure.OneHour"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-hour",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYHOURBYMIN10",
+        "UPDATE_TIME": 1737616831772,
+        "CREATE_TIME": 1737616831772,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.Hourly5",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "AUPF",
+            "focalType": "resourceType",
+            "granularity": "1-hour",
+            "jobDelay": 2,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageAvg.percent"
+                },
+                {
+                    "aggr": [
+                        "count"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageCnt.number"
+                },
+                {
+                    "aggr": [
+                        "max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageMaxDuration.ms"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageTot.number"
+                },
+                {
+                    "aggr": [
+                        "min"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageMin.percent"
+                },
+                {
+                    "aggr": [
+                        "max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.CpuUsageMax.percent"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.DiskUsageTot.number"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.DiskUsageAvg.percent"
+                },
+                {
+                    "aggr": [
+                        "max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.DiskUsageMax.percent"
+                },
+                {
+                    "aggr": [
+                        "count"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.DiskUsageCnt.number"
+                },
+                {
+                    "aggr": [
+                        "min"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.DiskUsageMin.percent"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.MemUsageAvg.percent"
+                },
+                {
+                    "aggr": [
+                        "max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.MemUsageMax.percent"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.MemUsageTot.number"
+                },
+                {
+                    "aggr": [
+                        "count"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.MemUsageCnt.number"
+                },
+                {
+                    "aggr": [
+                        "min"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.MemUsageMin.percent"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-hour",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYHOUR",
+        "UPDATE_TIME": 1737617086062,
+        "CREATE_TIME": 1737617086062,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.UPC.Load5",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "AUPF",
+            "focalType": "resourceType",
+            "granularity": "1-day",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.UPC.load.Avg"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-day",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYDAY9AMET",
+        "UPDATE_TIME": 1737617808757,
+        "CREATE_TIME": 1737617808757,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ENB.Weekly",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "ENB",
+            "focalType": "resourceType",
+            "granularity": "1-week",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.RTP_Gap_Duration_Ratio_Avg_pct"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_DC_Rate_num"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_LTE_MaxRRCusers"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_SC_DCs"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Peak_num_UE_In_Connected_Mode"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.PeakActive_UEs"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-week",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYWEEK",
+        "UPDATE_TIME": 1739280896992,
+        "CREATE_TIME": 1737560791751,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ENB.Weekly.228",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "ENB",
+            "focalType": "resourceType",
+            "granularity": "1-week",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.RTP_Gap_Duration_Ratio_Avg_pct"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_DC_Rate_num"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_LTE_MaxRRCusers"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_SC_DCs"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Peak_num_UE_In_Connected_Mode"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.PeakActive_UEs"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "resource.Market =='228'",
+            "start": "",
+            "time": "last-week",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYWEEK",
+        "UPDATE_TIME": 1741279412471,
+        "CREATE_TIME": 1741279412471,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ENB.Weekly.Market74",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "ENB",
+            "focalType": "resourceType",
+            "granularity": "1-week",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.RTP_Gap_Duration_Ratio_Avg_pct"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_DC_Rate_num"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_LTE_MaxRRCusers"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Adjusted_SIP_SC_DCs"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Peak_num_UE_In_Connected_Mode"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.PeakActive_UEs"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "resource.Market =='074'",
+            "start": "",
+            "time": "last-week",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYWEEK",
+        "UPDATE_TIME": 1741279338063,
+        "CREATE_TIME": 1741273539985,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "GNB.E1AP5",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "GNB",
+            "focalType": "resourceType",
+            "granularity": "1-day",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_randomAccessProblem"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_syncReconfFailure"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_per_GNB"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_t310Expiry"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_scgReconfFailure"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_UL_rlcMaxNumRetx"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_rlcMaxNumRetx"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_DL_srb3IntegrityFailure"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_UL_srb3IntegrityFailure"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCRELBYSGNB_MRBASEDSUSPENDRESUME"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.CAUSEE1APTRANSPORTLAYERUNSPECIFIED"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.EndcRelBySgnb_UL_outOfSync"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-day",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYDAY8AMET",
+        "UPDATE_TIME": 1737617725088,
+        "CREATE_TIME": 1737617725088,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "Market.Carrier.Samsung",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "RanMarket",
+            "focalType": "resourceType",
+            "granularity": "1-day",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_RRCSetupFailure_pct"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_RRCSetupFailure_den"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_ERABSetupFailureRateQCI1_pct"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_DataERABDropRate_pct"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_TotalDLRLCLayerDataVolume_MB"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_DLRLCcellAggregateTput_Mbps"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SS_MaxRRCconnectedUsers"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_DataERABDropRate_num"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_ULMACLayerDataVolume_MB"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_ULUserPerceivedTput_Mbps"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_AvgRRCconnectedUsers_percell"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_DataERABDropRate_den"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_Cell_OOO_sec"
+                },
+                {
+                    "aggr": [
+                        "Count"
+                    ],
+                    "entity": "Carrier",
+                    "name": "Carrier.SEA_Cell_Availability"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "resource.id=='070' || resource.id=='071' || resource.id=='072' || resource.id=='073' || resource.id=='074'",
+            "start": "",
+            "time": "last-day",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYDAY9AMET",
+        "UPDATE_TIME": 1749195291083,
+        "CREATE_TIME": 1749194620532,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "Samsung.ErabAddAtt_per_GNB5",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "sector",
+            "focalType": "resourceType",
+            "granularity": "1-day",
+            "jobDelay": 0,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "sector",
+                    "name": "sector.ErabAddAtt.per.GNB.number"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-day",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYDAY9AMET",
+        "UPDATE_TIME": 1737617892358,
+        "CREATE_TIME": 1737617892358,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ThermalTemp.hourly",
+        "JOB_TYPE": "BATCH",
+        "DEFINITION": {
+            "end": "",
+            "focalEntity": "ThermalTemperatures",
+            "focalType": "resourceType",
+            "granularity": "1-hour",
+            "jobDelay": 1,
+            "jobType": "default",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Min"
+                    ],
+                    "entity": "ThermalTemperatures",
+                    "name": "ThermalTemperature.min"
+                }
+            ],
+            "peakFilter": {
+                "peakAggr": "",
+                "points": 2
+            },
+            "percentile": 0,
+            "resourceFilter": "",
+            "start": "",
+            "time": "last-hour",
+            "timezone": "UTC"
+        },
+        "EVENT_TYPE": "SCHEDULE",
+        "EVENT_NAME": "EVERYHOURBYMIN10",
+        "UPDATE_TIME": 1737616755373,
+        "CREATE_TIME": 1737616755373,
+        "ENABLE_FLAG": true
+    }
+]

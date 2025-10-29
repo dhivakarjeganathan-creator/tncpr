@@ -1,0 +1,9 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1100300,2025-10-07T14:00:00-05:00,3600,7910,7910,7906,,18,99.95
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1100301,2025-10-07T14:00:00-05:00,3600,5586,5586,5586,,20,100
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1109300,2025-10-07T14:00:00-05:00,3600,200597,200555,200465,,1135,99.93
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1109301,2025-10-07T14:00:00-05:00,3600,113591,113474,113428,,609,99.86
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1109302,2025-10-07T14:00:00-05:00,3600,75939,75858,75835,,655,99.86
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1100302,2025-10-07T14:00:00-05:00,3600,3018,3018,3017,,12,99.97
+110,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1109303,2025-10-07T14:00:00-05:00,3600,793,793,793,,1,100
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,407434,407194,407030,,2450,99.9

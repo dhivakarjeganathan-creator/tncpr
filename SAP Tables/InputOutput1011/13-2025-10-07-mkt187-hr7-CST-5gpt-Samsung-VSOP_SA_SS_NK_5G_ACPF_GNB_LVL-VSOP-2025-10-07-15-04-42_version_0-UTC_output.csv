@@ -1,0 +1,6 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+187,Central Texas,VCP Edge 1.x,NR,,,1879351,2025-10-07T07:00:00-05:00,3600,37836,37827,37814,,153,99.94
+187,Central Texas,VCP Edge 1.x,NR,,,1879353,2025-10-07T07:00:00-05:00,3600,18851,18851,18836,,61,99.92
+187,Central Texas,VCP Edge 1.x,NR,,,1879354,2025-10-07T07:00:00-05:00,3600,0,0,0,,0,NaN
+187,Central Texas,VCP Edge 1.x,NR,,,1879352,2025-10-07T07:00:00-05:00,3600,0,0,0,,0,NaN
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,56687,56678,56650,,214,99.93

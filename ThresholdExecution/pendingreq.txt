@@ -1,0 +1,99 @@
+
+
+Threshold
+
+
+Critical
+Major
+Minor
+Warning
+Clear
+
+Upper limit <=
+Lower limit >= 
+
+Burst - one time success - raise alarm
+Period - concurrent condition success for a period of time - raise alarm
+
+Period Clear alarm - don't clear for the day. Raise clear alarm the next day 12 am (even if it did not get cleared)
+Burst Clear alarm - clear it when the condition is failure
+
+Burst occurrence - raise if the condition satifies for  number of consecutive occurrence
+Burst time - raise if the condition satisfies for a specific period of time
+
+Clear occurrence
+Clear time
+
+
+Severity      Limit     Mode     Occurrence   Time           Clear                                                               active until     periodGranularity
+
+Critical      Upper    Burst     no of times  seconds                                                                            enddate          days to keep for reset
+Major         Lower    Period                                                                                                                     applicable for period only
+Minor
+Warning
+Clear                                                        Period - don't clear for the day
+                                                             Burst - clear immediately or after specific occurrence or time                
+
+
+schedule 
+
+Monday
+Tuesday
+.. Sunday
+Maintenance window (
+
+MRF.Weekday.ET.00-01
+
+when to run
+timezone
+time interval
+
+2. based on time period and not occurrence - no for 5gRAN
+4. based on period and period granularity - no for any domain
+8. load json grouping and time scheduling - complete
+6. Clear implementation - clear alarms that does not satisfy condition - complete
+5. Threshold group in filter - with grouping/enrichment - json for grouping/xls for enrichment - complete
+7. enrichment for each inventory - complete
+9. load xls enrichment - complete
+10. sector, carrier, enrichment? -- threshold group - configuration - condition - has sector and carrier. we have enriched only gnb and du -- complete
+3. based on schedule (next runtime) - has condition also - new json file (time scheduling)
+
+
+6. streaming analytics and batch analytics - ensure you have group filtered.
+11. During dataload as columns, there is a chance that column is new and it is not available in the table. at that time, add a new column and load it.
+12. no Samsung gnb
+13. gnb for 
+
+Deployment steps
+
+1. IngestionCode - To ingest data Samsung, Corning, Ericsson, AUPF, ACPF - Market/GNB/DU/Sector/Carrier
+-- everyfile should be appended with “{datasource}-”
+-- creates the _output files
+
+2. HierarchyCode - To create the hierarchy based on the data files. Market --> GNB --> DU --> Sector --> Carrier
+-- send the raw input files.
+-- creates the hierarchy in database
+
+3. HierarchyGNB - To create the hierarchy from ASM Tables.
+
+4. StreamAnalytics - Load the Streamanalytics json data (This data is not used for now)
+
+5. BatchAnalytics - Load the Batchanalytics json data and run/execute the batch rules/expression
+
+6. Analytics - Ingest KPI data, Load the UDC Definition and run/execute the UDCs.
+-- Loading all the output files from Ingestioncode
+
+7. JsonLoad - Load enrichment, group configuration, Time scheduling
+
+8. Threshold - Load Threshold Rules
+
+9. ThresholdExecution - Load the threshold rules and run/execute them and create the alarms.
+
+
+
+
+
+
+
+
+ 

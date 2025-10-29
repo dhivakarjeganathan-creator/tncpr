@@ -1,0 +1,23 @@
+DAY,HR,5G,REGION,MARKET,MARKET_DESC,SITE,GNB,VNFC_TYPE,VNFC_ID,CpuUsageAvg_AUPF,CpuUsageMax_AUPF,CpuUsageMin_AUPF,DiskUsageAvg_AUPF,DiskUsageMax_AUPF,DiskUsageMin_AUPF,MemUsageAvg_AUPF,MemUsageMax_AUPF,MemUsageMin_AUPF,MemUsageTot_AUPF,DiskUsageTot_AUPF,CpuUsageTot_AUPF,DiskUsageCnt_AUPF,CpuUsageAvg_ACPF,CpuUsageMax_ACPF,CpuUsageMin_ACPF,DiskUsageAvg_ACPF,DiskUsageMax_ACPF,DiskUsageMin_ACPF,MemUsageAvg_ACPF,MemUsageMax_ACPF,MemUsageMin_ACPF,MemUsageTot_ACPF,DiskUsageTot_ACPF,CpuUsageTot_ACPF,InThruPeak_VM_AUPF,OutThruPeak_VM_AUPF,InThruPeak_VM_ACPF,OutThruPeak_VM_ACPF
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270153,CIC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.61,2.87
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270153,CMC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25.05,34.39
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270153,CPC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33.28,59.23
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270165,CIC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.41,1.77
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270165,CMC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15.15,26.03
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1270165,CPC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.31,0.25
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279701,CIC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.1,70.21
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279701,CMC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15.26,158.04
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279701,CPC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.46,5542.96
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279701,CPC,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.22,2206.78
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CIC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CMC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.31,3.33
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CMC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,2.8
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CPC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.53,0.58
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CPC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279709,CPC,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.47,0.52
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279807,CIC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0.34
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279807,CMC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.39,9.82
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279807,CPC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.49,0.44
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279807,CPC,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.72,3.34
+10/07/2025,22,ICL 1,Houston/Gulf Coast,127,Pensacola,BTRH,1279807,CPC,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.7,2.88
+Total,*,*,*,*,*,*,*,*,*,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.1,5542.96

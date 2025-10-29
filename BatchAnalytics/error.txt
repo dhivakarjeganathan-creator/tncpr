@@ -1,0 +1,9 @@
+ERROR:__main__:Query:
+            INSERT INTO "RuleExecutionResults"
+            ("Id", timestamp, udc_config_name, udc_config_value, created_at)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT ("Id", timestamp, udc_config_name)
+            DO UPDATE SET udc_config_value = EXCLUDED.udc_config_value
+
+ERROR:__main__:Parameters: ('0700002', datetime.date(2025, 9, 2), 'tsum_gnb_endcrelbysgnb_dl_rlcmaxnumretx', Decimal('5'), datetime.datetime(2025, 9, 27, 22, 28, 39, 376004))
+ERROR:__main__:Error processing metricjob 45: there is no unique or exclusion constraint matching the ON CONFLICT specification

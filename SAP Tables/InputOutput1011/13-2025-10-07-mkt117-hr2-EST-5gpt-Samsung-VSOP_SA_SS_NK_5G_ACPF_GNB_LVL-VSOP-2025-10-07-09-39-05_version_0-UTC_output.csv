@@ -1,0 +1,20 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179650,2025-10-07T02:00:00-05:00,3600,89865,89731,89708,,171,99.83
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179652,2025-10-07T02:00:00-05:00,3600,21666,21658,21657,,58,99.96
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179653,2025-10-07T02:00:00-05:00,3600,33359,33250,33248,,55,99.67
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179654,2025-10-07T02:00:00-05:00,3600,54637,54637,54563,,143,99.86
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179655,2025-10-07T02:00:00-05:00,3600,22298,22263,22260,,27,99.83
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179656,2025-10-07T02:00:00-05:00,3600,28772,28772,28766,,83,99.98
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179658,2025-10-07T02:00:00-05:00,3600,1811,1811,1810,,5,99.94
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179659,2025-10-07T02:00:00-05:00,3600,69,69,69,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179660,2025-10-07T02:00:00-05:00,3600,770,770,770,,4,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170650,2025-10-07T02:00:00-05:00,3600,465,465,465,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179651,2025-10-07T02:00:00-05:00,3600,0,0,0,,0,NaN
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179657,2025-10-07T02:00:00-05:00,3600,0,0,0,,0,NaN
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170651,2025-10-07T02:00:00-05:00,3600,292,292,292,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170652,2025-10-07T02:00:00-05:00,3600,41,41,41,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170653,2025-10-07T02:00:00-05:00,3600,137,137,137,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170654,2025-10-07T02:00:00-05:00,3600,140,140,140,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170655,2025-10-07T02:00:00-05:00,3600,0,0,0,,0,NaN
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179661,2025-10-07T02:00:00-05:00,3600,0,0,0,,0,NaN
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,254322,254036,253926,,546,99.84

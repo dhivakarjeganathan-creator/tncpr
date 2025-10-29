@@ -1,0 +1,4 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'CorningCarrier.COR_NSA_Cell_Availability','CorningCarrier.COR_NSA_Cell_NumOf_ENDC_sessions','CorningCarrier.COR_NSA_Cell_X2AP_SgNBAddRqst','CorningCarrier.COR_NSA_Cell_DL_Avg_DUu_GTP_TPT','CorningCarrier.COR_NSA_Cell_DL_Avg_S1U_GTP_TPT','CorningCarrier.DL_GTP_Data_Volume_RN_MB'
+Global,Florida,VCP Far Edge,NR,,5GNB_Daytona_LPGA_VZ_Store,14511330000-0001-01,2025-10-07T22:00:00-04:00,3600,100,0,0,0,0,0
+Global,Florida,VCP Far Edge,NR,,5GNB_Daytona_LPGA_VZ_Store,14511330000-0002-01,2025-10-07T22:00:00-04:00,3600,100,0,0,0,0,0
+Global,*,VCP Far Edge,NR,,*,000000*000*-*-*,,3600,200.0,0.0,0.0,0.0,0.0,0

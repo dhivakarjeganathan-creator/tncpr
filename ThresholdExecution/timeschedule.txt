@@ -1,0 +1,22 @@
+i want you to implement this function _generate_schedule_query.
+
+This function should generate a sql query.
+schedule is the input.
+
+select time_period, tz from time_schedulings 
+where name = ‘{schedule}’ and enabled = true;
+
+when you execute the above query, you will get following format for time_period
+"[{""from"": 32400000, ""to"": 64800000}]"
+
+and for tz you will get values like this below - which shows the timezone
+"America/Chicago"
+"GMT"
+"US/Central"
+"US/Eastern"
+
+the timeperiod “from” and “to” are in milliseconds. I want to convert to fromtime and endtime
+and tz is the timezone. i want to convert the fromtime/tz to a time in UTC timezone and also the endtime/tz to provide the time in UTC timezone.
+
+i want to construct a where clause like “ and timestamp >= ‘{fromtime}’ and timestamp <= ‘{endtime}’ ”
+

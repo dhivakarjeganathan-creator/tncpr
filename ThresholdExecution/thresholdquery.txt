@@ -1,0 +1,27 @@
+i want you to implement this function _generate_threshold_query.
+
+This function should generate a sql query.
+thresholdsourceid is the input.
+
+select condition
+from group_configurations
+where group_name = '{thresholdsourceid}'
+
+when you execute the above query, you will get values like 
+"resource.type=='DU' && resource.ranMarket.like('13*')"
+"resource.type=='DU' && resource.Band=='MMW' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')"
+"resource.type=='DU' && resource.Band=='MMW'"
+"resource.type=='GNB' && resource.Band.like('MMW')"
+"resource.type=='sector' && resource.Band=='SUB6' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')"
+
+I want to get the type, ranMarket, Band information. It can be a single value, list of values or it can be a matching string.
+
+I want to use this information to create a query against the enrichmentdetails view in the database. Which looks something like this.
+
+select *
+from enrichmentdetails
+where type = lower('du') and (market in ('131', '132') or market like ('13%'))
+and (band = 'MMW' or band in ('MMW', 'SUB3')
+
+just create the query, don’t execute it.
+

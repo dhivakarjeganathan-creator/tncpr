@@ -1,0 +1,14 @@
+The matchesRegex method has an issue
+matchesRegex(get_value('/VNFC_TYPE'),'^UIC$|^UPC$|^UMC$')
+
+even though the value of get_value('/VNFC_TYPE') return 'UPC', this returns none.
+
+matchesRegex(/VNFC_TYPE,'^UIC$|^UPC$|^UMC$')
+this means the value of /VNFC_TYPE, should start with UIC or UPC or UMC
+^ means it should start with this value
+$ means it can have other values after this. It is like the % in database.
+
+Also values like UPCA, UICMADBC should match.
+also values like XUPC, AUPC, mmUMC should not match as ^ denotes, the value should start with.
+
+$ does not mean en

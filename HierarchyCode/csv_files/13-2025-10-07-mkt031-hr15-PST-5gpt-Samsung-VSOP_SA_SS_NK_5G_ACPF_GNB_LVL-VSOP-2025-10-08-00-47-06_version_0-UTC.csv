@@ -1,0 +1,5 @@
+DAY,HR,5G,REGION,MARKET,MARKET_DESC,SITE,GNB,PdcpSduLossRateUL,PdcpSduRetxByteDL,PdcpMaxThroughputDL,PdcpMaxThroughputUL,PdcpSduMaxVolumeDL,PdcpSduMaxVolumeUL,PdcpSduVolumeDL,PdcpSduVolumeUL,UpcLoadAvg,UpcLoadCnt,UpcLoadMax,UpcLoadMin,UpcLoadTot,PdcpSduLossRateDL,ENDCAddAtt,ENDCAddSuccRate,ENDCAddprepSucc,ENDCAddsucc,ENDCRelbySgnb,CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE,InThruPeak,OutThruPeak
+10/07/2025,15,ICL 1,N. California,031,Sunnyvale,APPKHUB_APPLE_TA11_a,0310001,0,0,15099.49,0,18,0,44,0,0,720,0,0,0,0,10,100,10,10,0,0,0,0
+10/07/2025,15,ICL 1,N. California,031,Sunnyvale,SNVA,0310002,0,0,0,0,0,0,0,0,0,720,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,15,ICL 1,N. California,031,Sunnyvale,SNVA,0310101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+Total,*,*,*,*,*,*,*,0,0,15099.49,0,18,0,44,0,0,1440,0,0,0,0,10,100,10,10,0,0,0,0

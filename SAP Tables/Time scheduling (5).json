@@ -1,0 +1,4580 @@
+[
+    {
+        "name": "CTX_Non-MW",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 64800000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "America/Chicago",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "29/02/2060 12:19 PM",
+        "frequency": 0,
+        "every_day": -1,
+        "start": "18/02/2024 09:55 PM",
+        "day": 0,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "DU_Maintenance_Window",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 36000000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": false,
+        "tz": "GMT",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "01/09/2035 03:28 PM",
+        "frequency": 0,
+        "every_day": 1,
+        "start": "27/09/2022 03:28 PM",
+        "day": 0,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.CT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.ET.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Saturday.MT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 64,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.CT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.ET.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Sunday.MT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 1,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.CT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Central",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.ET.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Eastern",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.00-01",
+        "time_period": [
+            {
+                "from": 0,
+                "to": 3540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.01-02",
+        "time_period": [
+            {
+                "from": 3600000,
+                "to": 7140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.02-03",
+        "time_period": [
+            {
+                "from": 7200000,
+                "to": 10740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.03-04",
+        "time_period": [
+            {
+                "from": 10800000,
+                "to": 14340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.04-05",
+        "time_period": [
+            {
+                "from": 14400000,
+                "to": 17940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.05-06",
+        "time_period": [
+            {
+                "from": 18000000,
+                "to": 21540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.06-07",
+        "time_period": [
+            {
+                "from": 21600000,
+                "to": 25140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.07-08",
+        "time_period": [
+            {
+                "from": 25200000,
+                "to": 28740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.08-09",
+        "time_period": [
+            {
+                "from": 28800000,
+                "to": 32340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.09-10",
+        "time_period": [
+            {
+                "from": 32400000,
+                "to": 35940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.10-11",
+        "time_period": [
+            {
+                "from": 36000000,
+                "to": 39540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.11-12",
+        "time_period": [
+            {
+                "from": 39600000,
+                "to": 43140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.12-13",
+        "time_period": [
+            {
+                "from": 43200000,
+                "to": 46740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.13-14",
+        "time_period": [
+            {
+                "from": 46800000,
+                "to": 50340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.14-15",
+        "time_period": [
+            {
+                "from": 50400000,
+                "to": 53940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.15-16",
+        "time_period": [
+            {
+                "from": 54000000,
+                "to": 57540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.16-17",
+        "time_period": [
+            {
+                "from": 57600000,
+                "to": 61140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.17-18",
+        "time_period": [
+            {
+                "from": 61200000,
+                "to": 64740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.18-19",
+        "time_period": [
+            {
+                "from": 64800000,
+                "to": 68340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.19-20",
+        "time_period": [
+            {
+                "from": 68400000,
+                "to": 71940000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.20-21",
+        "time_period": [
+            {
+                "from": 72000000,
+                "to": 75540000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.21-22",
+        "time_period": [
+            {
+                "from": 75600000,
+                "to": 79140000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.22-23",
+        "time_period": [
+            {
+                "from": 79200000,
+                "to": 82740000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    },
+    {
+        "name": "MRF.Weekday.MT.23-00",
+        "time_period": [
+            {
+                "from": 82800000,
+                "to": 86340000
+            }
+        ],
+        "rank_of_week": 0,
+        "enabled": true,
+        "tz": "US/Mountain",
+        "rank_of_week_day": 0,
+        "day_of_month": 0,
+        "end": "02/01/2045 03:17 AM",
+        "frequency": 1,
+        "every_day": 1,
+        "start": "17/01/2024 03:17 AM",
+        "day": 62,
+        "day_of_month_type": 0,
+        "month": 0
+    }
+]

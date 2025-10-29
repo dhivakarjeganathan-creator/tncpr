@@ -1,0 +1,27 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140500,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140504,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140506,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149500,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149510,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149514,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140501,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140502,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140503,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140505,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140507,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1140509,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149501,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149502,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149503,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149504,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149505,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149506,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149507,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149508,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149509,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149511,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149512,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149513,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+114,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1149515,2025-10-07T18:00:00-05:00,3600,0,0,0,,0,NaN
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,0,0,0,,0,NaN

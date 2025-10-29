@@ -1,0 +1,7 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+173,Georgia/Alabama,VCP Edge 1.x,NR,,,1730908,2025-10-07T15:00:00-05:00,3600,21,21,21,,3,100
+173,Georgia/Alabama,VCP Edge 1.x,NR,,,1730909,2025-10-07T15:00:00-05:00,3600,24,24,24,,7,100
+173,Georgia/Alabama,VCP Edge 1.x,NR,,,1731569,2025-10-07T15:00:00-05:00,3600,4,4,4,,0,100
+173,Georgia/Alabama,VCP Edge 1.x,NR,,,1730878,2025-10-07T15:00:00-05:00,3600,0,0,0,,0,NaN
+173,Georgia/Alabama,VCP Edge 1.x,NR,,,1730907,2025-10-07T15:00:00-05:00,3600,355,355,355,,12,100
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,404,404,404,,22,100

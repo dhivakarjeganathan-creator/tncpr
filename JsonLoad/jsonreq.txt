@@ -1,0 +1,9 @@
+I have two json files group_configuration.json and time_scheduling.json. These files are not related.
+can you help store the information in database.
+
+create a virtual environment for python
+install all the dependencies
+create a .env file to store all configuration including postgresql database config
+
+I have two csv files Ericsson-5G-Enrichment.csv and Samsung-5G-Enrichment.csv. These files are not related.
+can you help store the information in database in a new tables.

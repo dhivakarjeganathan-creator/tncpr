@@ -1,0 +1,99 @@
+I have the following folder structure.
+
+/Datafiles - contains CSV files
+
+/Ingestion
+--> /csvfiles
+
+/HierarchyCode
+--> /csv_files
+
+/Analytics
+--> /output
+
+/BatchAnalytics
+
+/Threshold
+
+/MetricsandTables
+
+/AlarmCreation
+
+I want to write a simple windows batch file to do the following
+
+1. Copy the files from the /DataFiles folder to /Ingestion/csvfiles folder
+2. Copy the files from the /DataFiles folder to /HierarchyCode/csvfiles folder
+3. Run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\Ingestion\etl_env\Scripts
+   activate
+   cd..
+   cd..
+   python etl_processor.py
+
+4. After this process is over and successfully completed, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\HierarchyCode\venv\Scripts
+   activate
+   cd..
+   cd..
+   python main.py
+
+5. After Step 4 is completed successfully,
+   copy the csv files that end with "_output.csv" from /Ingestion/csvfiles to the /Analytics/output folder
+
+5a. After the copy is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\Analytics\venv\Scripts
+   activate
+   cd..
+   cd..
+   python main_etl.py
+
+5b. After 5a is is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\MetricsandTables\venv\Scripts
+   activate
+   cd..
+   cd..
+   python execute_sql.py
+
+6. After the step 5b is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\Analytics\venv\Scripts
+   activate
+   cd..
+   cd..
+   python performance_rules.py
+
+6a. After step 6 is is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\MetricsandTables\venv\Scripts
+   activate
+   cd..
+   cd..
+   python execute_sql.py
+
+7. After step 6a is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\BatchAnalytics\venv\Scripts
+   activate
+   cd..
+   cd..
+   python batch_processor.py
+
+7a. After step 7 is is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\MetricsandTables\venv\Scripts
+   activate
+   cd..
+   cd..
+   python execute_sql.py
+
+8. After step 8 is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\ThresholdExecution\venv\Scripts
+   activate
+   cd..
+   cd..
+   python main.py
+
+9. After step 8 is successful, run the following commands
+   cd C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\AlarmCreation\venv\Scripts
+   activate
+   cd..
+   cd..
+   python alarm_processor.py
+
+

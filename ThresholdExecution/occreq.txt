@@ -1,0 +1,21 @@
+for the function _add_consecutive_conditions with no implementation, i want you to implement it.
+Here are the instructions
+
+use the input provided
+id: str, timestamp: datetime, metric_column: str, occurrence: int, upperlimit: int, lowerlimit: int, tablename: str
+
+you first need to construct a query and then execute it. 
+
+The query will be as below.
+
+"with ordered as 
+  (SELECT 
+    id,
+    timestamp,
+    {metric_column}::numeric metricvalue,
+    LAG({metric_column}, 1) OVER (PARTITION BY id ORDER BY timestamp) AS prev1,
+    LAG({metric_column}, 2) OVER (PARTITION BY id ORDER BY timestamp) AS prev2
+FROM {tablename} where id = {id} and timestamp::timestamp > now()- interval '37 days' )
+select count(*) cnt from ordered where 1=1 and id = {id} and timestamp = {timestamp} and prev1::numeric > {lowerlimit} and prev2::numeric > {lowerlimit}"
+
+Then execute the query, it will return you the "cnt" return that value as the output.

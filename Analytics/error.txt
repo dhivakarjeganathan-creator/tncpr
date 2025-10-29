@@ -1,0 +1,1257 @@
+(venv) C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\Analytics>python performance_rules.py
+INFO:database_config:Database connection established successfully
+INFO:__main__:performancerules table created successfully
+INFO:__main__:Rule execution tracking table created successfully
+INFO:__main__:RuleExecutionResults table created successfully
+INFO:__main__:Loaded 31 rules from User-defined_calculations_(UDC)_CLS000.csv
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:insert_sql:
+                INSERT INTO "performancerules" ("aggregation", "can_edit", "data_type", "description", "field_type", "focal_entity", "formula", "modified", "owner", "parsed_formula", "udc_config_name", "user_groups", "aggregation_type", "tablename", "grouptable", "last_executed", "execution_count", "last_successful_execution", "created_at")
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT ("udc_config_name")
+                DO UPDATE SET
+                    "formula" = EXCLUDED."formula",
+                    "parsed_formula" = EXCLUDED."parsed_formula",
+                    "focal_entity" = EXCLUDED."focal_entity",
+                    "description" = EXCLUDED."description",
+                    "tablename" = EXCLUDED."tablename",
+                    "grouptable" = EXCLUDED."grouptable",
+                    "aggregation_type" = EXCLUDED."aggregation_type"
+
+INFO:__main__:Successfully loaded 31 rules into performancerules table
+INFO:__main__:Starting performance rules execution...
+INFO:__main__:Processing rules for focal entity: ACPF
+INFO:__main__:Found 3 rules for focal entity: ACPF
+INFO:__main__:Rules: [RealDictRow({'aggregation': 'Sum', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'ACPF', 'formula': '[GNB]![{GNB.ENDCAddAtt}]', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'gnb_endcaddatt', 'udc_config_name': 'acpf_ssum_ACPF.ENDCAddAtt', 'user_groups': 'NaN', 'aggregation_type': 'Aggregate', 'tablename': 'acpf_gnb_samsung', 'grouptable': 'hierarchy_gnb', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Sum', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'ACPF', 'formula': '[GNB]![{GNB.ENDCAddprepSucc}]', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'gnb_endcaddprepsucc', 'udc_config_name': 'acpf_ssum_ACPF.ENDCAddprepSucc', 'user_groups': 'NaN', 'aggregation_type': 'Aggregate', 'tablename': 'acpf_gnb_samsung', 'grouptable': 'hierarchy_gnb', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Sum', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'ACPF', 'formula': '[GNB]![{GNB.ENDCAddsucc}]', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'gnb_endcaddsucc', 'udc_config_name': 'acpf_ssum_ACPF.ENDCAddsucc', 'user_groups': 'NaN', 'aggregation_type': 'Aggregate', 'tablename': 'acpf_gnb_samsung', 'grouptable': 'hierarchy_gnb', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))})]
+INFO:__main__:Table name from rule tablename: acpf_gnb_samsung
+INFO:__main__:Found 1 matching tables for focal entity: ACPF
+INFO:__main__:Matching tables: ['acpf_gnb_samsung']
+INFO:__main__:Executing rule acpf_ssum_ACPF.ENDCAddAtt on table acpf_gnb_samsung
+INFO:__main__:Executing aggregate rule acpf_ssum_ACPF.ENDCAddAtt with grouptable hierarchy_gnb
+INFO:__main__:Converted formula for aggregate rule acpf_ssum_ACPF.ENDCAddAtt: t.GNB_ENDCAddAtt::float
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule acpf_ssum_ACPF.ENDCAddAtt
+INFO:__main__:Executing aggregate SQL for rule acpf_ssum_ACPF.ENDCAddAtt:
+                SELECT
+                    g.typeid,
+                    t.timestamp,
+                    SUM(t.GNB_ENDCAddAtt::float) as calculated_value,
+                    COUNT(*) as record_count
+                FROM "acpf_gnb_samsung" t
+                INNER JOIN "hierarchy_gnb" g
+                    ON g.gnb = t.id
+                    AND g.type = 'ACPF'
+                WHERE (t.GNB_ENDCAddAtt::float) IS NOT NULL AND t."created_at" >= '2025-09-24 17:05:46'
+                GROUP BY g.typeid, t.timestamp
+                ORDER BY g.typeid, t.timestamp
+
+INFO:__main__:Aggregate rule acpf_ssum_ACPF.ENDCAddAtt executed successfully: 192 grouped results
+INFO:__main__:Rule results saved to database: 192 rows for rule acpf_ssum_ACPF.ENDCAddAtt
+INFO:__main__:Success: Results saved for rule acpf_ssum_ACPF.ENDCAddAtt on table acpf_gnb_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: acpf_gnb_samsung
+INFO:__main__:Found 1 matching tables for focal entity: ACPF
+INFO:__main__:Matching tables: ['acpf_gnb_samsung']
+INFO:__main__:Executing rule acpf_ssum_ACPF.ENDCAddprepSucc on table acpf_gnb_samsung
+INFO:__main__:Executing aggregate rule acpf_ssum_ACPF.ENDCAddprepSucc with grouptable hierarchy_gnb
+INFO:__main__:Converted formula for aggregate rule acpf_ssum_ACPF.ENDCAddprepSucc: t.GNB_ENDCAddprepSucc::float
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule acpf_ssum_ACPF.ENDCAddprepSucc
+INFO:__main__:Executing aggregate SQL for rule acpf_ssum_ACPF.ENDCAddprepSucc:
+                SELECT
+                    g.typeid,
+                    t.timestamp,
+                    SUM(t.GNB_ENDCAddprepSucc::float) as calculated_value,
+                    COUNT(*) as record_count
+                FROM "acpf_gnb_samsung" t
+                INNER JOIN "hierarchy_gnb" g
+                    ON g.gnb = t.id
+                    AND g.type = 'ACPF'
+                WHERE (t.GNB_ENDCAddprepSucc::float) IS NOT NULL AND t."created_at" >= '2025-09-24 17:05:46'
+                GROUP BY g.typeid, t.timestamp
+                ORDER BY g.typeid, t.timestamp
+
+INFO:__main__:Aggregate rule acpf_ssum_ACPF.ENDCAddprepSucc executed successfully: 192 grouped results
+INFO:__main__:Rule results saved to database: 192 rows for rule acpf_ssum_ACPF.ENDCAddprepSucc
+INFO:__main__:Success: Results saved for rule acpf_ssum_ACPF.ENDCAddprepSucc on table acpf_gnb_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: acpf_gnb_samsung
+INFO:__main__:Found 1 matching tables for focal entity: ACPF
+INFO:__main__:Matching tables: ['acpf_gnb_samsung']
+INFO:__main__:Executing rule acpf_ssum_ACPF.ENDCAddsucc on table acpf_gnb_samsung
+INFO:__main__:Executing aggregate rule acpf_ssum_ACPF.ENDCAddsucc with grouptable hierarchy_gnb
+INFO:__main__:Converted formula for aggregate rule acpf_ssum_ACPF.ENDCAddsucc: t.GNB_ENDCAddsucc::float
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule acpf_ssum_ACPF.ENDCAddsucc
+INFO:__main__:Executing aggregate SQL for rule acpf_ssum_ACPF.ENDCAddsucc:
+                SELECT
+                    g.typeid,
+                    t.timestamp,
+                    SUM(t.GNB_ENDCAddsucc::float) as calculated_value,
+                    COUNT(*) as record_count
+                FROM "acpf_gnb_samsung" t
+                INNER JOIN "hierarchy_gnb" g
+                    ON g.gnb = t.id
+                    AND g.type = 'ACPF'
+                WHERE (t.GNB_ENDCAddsucc::float) IS NOT NULL AND t."created_at" >= '2025-09-24 17:05:46'
+                GROUP BY g.typeid, t.timestamp
+                ORDER BY g.typeid, t.timestamp
+
+INFO:__main__:Aggregate rule acpf_ssum_ACPF.ENDCAddsucc executed successfully: 192 grouped results
+INFO:__main__:Rule results saved to database: 192 rows for rule acpf_ssum_ACPF.ENDCAddsucc
+INFO:__main__:Success: Results saved for rule acpf_ssum_ACPF.ENDCAddsucc on table acpf_gnb_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Processing rules for focal entity: CorningCarrier
+INFO:__main__:Found 1 rules for focal entity: CorningCarrier
+INFO:__main__:Rules: [RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'CorningCarrier', 'formula': '(([CorningCarrier]![{CorningCarrier.DL_GTP_Data_Volume_RN_MB}]  != 0 AND [CorningCarrier]![{CorningCarrier.DL_GTP_Data_Volume_RN_MB}] <=   100) AND (([CorningCarrier]![{CorningCarrier.COR_NSA_Cell_DL_Avg_DUu_GTP_TPT}] - [CorningCarrier]![{CorningCarrier.COR_NSA_Cell_DL_Avg_S1U_GTP_TPT}]) != 0 AND ([CorningCarrier]![{CorningCarrier.COR_NSA_Cell_DL_Avg_DUu_GTP_TPT}] - [CorningCarrier]![{CorningCarrier.COR_NSA_Cell_DL_Avg_S1U_GTP_TPT}]) <= 100) AND ([CorningCarrier]![{CorningCarrier.COR_NSA_Cell_NumOf_ENDC_sessions}] > 4)) ? 100:0', 'modified': '1733820000000.0', 'owner': 'Admin', 'parsed_formula': '((corningcarrier_dl_gtp_data_volume_rn_mb != 0 and corningcarrier_dl_gtp_data_volume_rn_mb <= 100) and ((corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt) != 0 and (corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt) <= 100) and (corningcarrier_cor_nsa_cell_numof_endc_sessions > 4)) ? 100:0', 'udc_config_name': 'CorningCarrier.rn.stall', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'carrier_corning', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))})]
+INFO:__main__:Table name from rule tablename: carrier_corning
+INFO:__main__:Found 1 matching tables for focal entity: CorningCarrier
+INFO:__main__:Matching tables: ['carrier_corning']
+INFO:__main__:Executing rule CorningCarrier.rn.stall on table carrier_corning
+INFO:__main__:Converted formula for rule CorningCarrier.rn.stall: ((corningcarrier_dl_gtp_data_volume_rn_mb != 0 and corningcarrier_dl_gtp_data_volume_rn_mb <= 100) and ((corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt) != 0 and (corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt) <= 100) and (corningcarrier_cor_nsa_cell_numof_endc_sessions > 4)) ? 100:0
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule CorningCarrier.rn.stall
+INFO:__main__:Executing SQL for rule CorningCarrier.rn.stall:
+                            select *,
+                                   (((corningcarrier_dl_gtp_data_volume_rn_mb != 0 and corningcarrier_dl_gtp_data_volume_rn_mb::float <= 100) and ((corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) != 0 and (corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) <= 100) and (corningcarrier_cor_nsa_cell_numof_endc_sessions::float > 4)) ? 100:0) as calculated_value,
+                                   (((corningcarrier_dl_gtp_data_volume_rn_mb != 0 and corningcarrier_dl_gtp_data_volume_rn_mb::float <= 100) and ((corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) != 0 and (corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) <= 100) and (corningcarrier_cor_nsa_cell_numof_endc_sessions::float > 4))) as condition_result
+                            from "carrier_corning"
+                            where (((corningcarrier_dl_gtp_data_volume_rn_mb != 0 and corningcarrier_dl_gtp_data_volume_rn_mb::float <= 100) and ((corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) != 0 and (corningcarrier_cor_nsa_cell_dl_avg_duu_gtp_tpt::float - corningcarrier_cor_nsa_cell_dl_avg_s1u_gtp_tpt::float) <= 100) and (corningcarrier_cor_nsa_cell_numof_endc_sessions::float > 4))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+ERROR:database_config:Error executing query: syntax error at or near ":"
+LINE 3: ...or_nsa_cell_numof_endc_sessions::float > 4)) ? 100:0) as cal...
+                                                             ^
+
+WARNING:__main__:Error executing rule CorningCarrier.rn.stall on carrier_corning: syntax error at or near ":"
+LINE 3: ...or_nsa_cell_numof_endc_sessions::float > 4)) ? 100:0) as cal...
+                                                             ^
+
+INFO:__main__:Unsuccessful: No results saved for rule CorningCarrier.rn.stall on table carrier_corning
+INFO:__main__:Processing rules for focal entity: DU
+INFO:__main__:Found 17 rules for focal entity: DU
+INFO:__main__:Rules: [RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(((([DU]![{DU.5GNR.ENDC.Drop.Pct}] >= 5 OR [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 1 OR [DU]![{DU.S5NR.DLUserPerceivedTput.Mbps}] <= 200)) AND (([DU]![{DU.5GNR.ENDC.Drop.Pct}] >= 5 OR [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] = 1 OR [DU]![{DU.S5NR.DLUserPerceivedTput.Mbps}] <= 200)) AND (([DU]![{DU.5GNR.ENDC.Drop.Pct}] >= 15 OR [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 2 OR [DU]![{DU.S5NR.DLUserPerceivedTput.Mbps}] <= 600))))', 'modified': '1752050000000.0', 'owner': 'system', 'parsed_formula': '((((du_5gnr_endc_drop_pct >= 5 or du_s5nr_totalerabsetupfailurerate_percent >= 1 or du_s5nr_dluserperceivedtput_mbps <= 200)) and ((du_5gnr_endc_drop_pct >= 5 or du_s5nr_totalerabsetupfailurerate_percent = 1 or du_s5nr_dluserperceivedtput_mbps <= 200)) and ((du_5gnr_endc_drop_pct >= 15 or du_s5nr_totalerabsetupfailurerate_percent >= 2 or du_s5nr_dluserperceivedtput_mbps <= 600))))', 'udc_config_name': 'DU.12.UPNY.CTX.070.072.071.139.132.131.MMW', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'Combined formulas for related to Accessibility, Throughput and Retainability', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 80 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR\r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] > 80)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Performance', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '([DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}]  > 50) ? [DU]![{DU.5GNR.ENDC.Drop.Pct}] : 0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50 THEN du_5gnr_endc_drop_pct::float ELSE 0::float END', 'udc_config_name': 'DU.Retainability', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 80 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 10 and du_5gnr_endc_drop_pct_num > 50 THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.MMW', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 15 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) \r\nOR \r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 1)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 15 and du_s5nr_maxrrcconnectedusersperdu_number > 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 1) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.MMW.CTX', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] >= 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1743660000000.0', 'owner': 'icpadmin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.MMW.NENG', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] >= 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1734410000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.MMW.UPNY', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 80 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 5 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50)\r\nOR\r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] > 80)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 5 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub3', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 5 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 5 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR\r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= .50)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 5 and du_s5nr_maxrrcconnectedusersperdu_number > 5 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= .50) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub3.CTX', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] >= 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1743660000000.0', 'owner': 'icpadmin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or(du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub3.NENG', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] >= 10 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1734410000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub3.UPNY', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 80 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50 OR \r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] > 80)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50 or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub6', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 5 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) \r\nOR \r\n([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] > .50)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 5 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > .50) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub6.CTX', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1743660000000.0', 'owner': 'icpadmin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub6.NENG', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}]>= 25 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] >= 25)) ? 100:0', 'modified': '1734410000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.Samsung.Performance.Sub6.UPNY', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.5GNR.ENDC.Drop.Pct}] >= 80 AND [DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1 AND [DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50) OR ([DU]![{DU.ErabAddAtt.per.GNB.number}] > 100 AND [DU]![{DU.S5NR.TotalERABSetupFailureRate.percent}] > 80))? 100:0', 'modified': '1748960000000.0', 'owner': 'system', 'parsed_formula': 'CASE WHEN (du_5gnr_endc_drop_pct >= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'DU.UPNY_SS_Performance_Issues_CLP', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'DU', 'formula': '(([DU]![{DU.S5NR.MaxRRCconnectedUsersPerDU.number}] > 1) AND ([DU]![{DU.5GNR.ENDC.Drop.pct.num}] > 50)) ? [DU]![{DU.5GNR.ENDC.Drop.Pct}] : 0 ', 'modified': '1734510000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (du_s5nr_maxrrcconnectedusersperdu_number > 1) and (du_5gnr_endc_drop_pct_num > 50) THEN du_5gnr_endc_drop_pct::float ELSE 0::float END', 'udc_config_name': 'DU.vdu.endc.drop', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'du_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))})]
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW on table du_samsung
+INFO:__main__:Converted formula for rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW: ((((du_5gnr_endc_drop_pct >= 5 or du_s5nr_totalerabsetupfailurerate_percent >= 1 or du_s5nr_dluserperceivedtput_mbps <= 200)) and ((du_5gnr_endc_drop_pct >= 5 or du_s5nr_totalerabsetupfailurerate_percent = 1 or du_s5nr_dluserperceivedtput_mbps <= 200)) and ((du_5gnr_endc_drop_pct >= 15 or du_s5nr_totalerabsetupfailurerate_percent >= 2 or du_s5nr_dluserperceivedtput_mbps <= 600))))
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW
+INFO:__main__:Executing SQL for rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW:
+                    select *,
+                               (((((du_5gnr_endc_drop_pct::float >= 5 or du_s5nr_totalerabsetupfailurerate_percent::float >= 1 or du_s5nr_dluserperceivedtput_mbps::float <= 200)) and ((du_5gnr_endc_drop_pct::float >= 5 or du_s5nr_totalerabsetupfailurerate_percent::float = 1 or du_s5nr_dluserperceivedtput_mbps::float <= 200)) and ((du_5gnr_endc_drop_pct::float >= 15 or du_s5nr_totalerabsetupfailurerate_percent::float >= 2 or du_s5nr_dluserperceivedtput_mbps::float <= 600))))) as calculated_value
+                    from "du_samsung"
+                    where (((((du_5gnr_endc_drop_pct::float >= 5 or du_s5nr_totalerabsetupfailurerate_percent::float >= 1 or du_s5nr_dluserperceivedtput_mbps::float <= 200)) and ((du_5gnr_endc_drop_pct::float >= 5 or du_s5nr_totalerabsetupfailurerate_percent::float = 1 or du_s5nr_dluserperceivedtput_mbps::float <= 200)) and ((du_5gnr_endc_drop_pct::float >= 15 or du_s5nr_totalerabsetupfailurerate_percent::float >= 2 or du_s5nr_dluserperceivedtput_mbps::float <= 600))))) is not null and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW executed successfully on du_samsung: 21790 matching rows
+INFO:__main__:Rule results saved to database: 21790 rows for rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW
+INFO:__main__:Success: Results saved for rule DU.12.UPNY.CTX.070.072.071.139.132.131.MMW on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Performance on table du_samsung
+INFO:__main__:Converted formula for rule DU.Performance: CASE WHEN (du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Performance
+INFO:__main__:Executing SQL for rule DU.Performance:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Performance executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Performance on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Retainability on table du_samsung
+INFO:__main__:Converted formula for rule DU.Retainability: CASE WHEN du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50 THEN du_5gnr_endc_drop_pct::float ELSE 0::float END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Retainability
+INFO:__main__:Executing SQL for rule DU.Retainability:
+                        select *,
+                               (case when du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50 then du_5gnr_endc_drop_pct::float else 0::float end) as calculated_value,
+                               (du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) as condition_result
+                        from "du_samsung"
+                        where (du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Retainability executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Retainability on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.MMW on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.MMW: CASE WHEN du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 10 and du_5gnr_endc_drop_pct_num > 50 THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.MMW
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.MMW:
+                        select *,
+                               (case when du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50 then 100 else 0 end) as calculated_value,
+                               (du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50) as condition_result
+                        from "du_samsung"
+                        where (du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.MMW executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.MMW on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.MMW.CTX on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.MMW.CTX: CASE WHEN (du_5gnr_endc_drop_pct>= 15 and du_s5nr_maxrrcconnectedusersperdu_number > 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 1) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.MMW.CTX
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.MMW.CTX:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 15 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 1) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 15 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 1))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 15 and du_s5nr_maxrrcconnectedusersperdu_number::float > 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 1))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.MMW.CTX executed successfully on du_samsung: 131 matching rows
+INFO:__main__:Rule results saved to database: 131 rows for rule DU.Samsung.Performance.MMW.CTX
+INFO:__main__:Success: Results saved for rule DU.Samsung.Performance.MMW.CTX on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.MMW.NENG on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.MMW.NENG: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.MMW.NENG
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.MMW.NENG:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.MMW.NENG executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.MMW.NENG on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.MMW.UPNY on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.MMW.UPNY: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.MMW.UPNY
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.MMW.UPNY:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.MMW.UPNY executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.MMW.UPNY on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub3 on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub3: CASE WHEN (du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 5 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub3
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub3:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub3 executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub3 on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub3.CTX on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub3.CTX: CASE WHEN (du_5gnr_endc_drop_pct>= 5 and du_s5nr_maxrrcconnectedusersperdu_number > 5 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= .50) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub3.CTX
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub3.CTX:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= .50) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= .50))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 5 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= .50))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub3.CTX executed successfully on du_samsung: 440 matching rows
+INFO:__main__:Rule results saved to database: 440 rows for rule DU.Samsung.Performance.Sub3.CTX
+INFO:__main__:Success: Results saved for rule DU.Samsung.Performance.Sub3.CTX on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub3.NENG on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub3.NENG: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or(du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub3.NENG
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub3.NENG:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or(du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or(du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or(du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub3.NENG executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub3.NENG on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub3.UPNY on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub3.UPNY: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number >= 10 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub3.UPNY
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub3.UPNY:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float >= 10 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub3.UPNY executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub3.UPNY on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub6 on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub6: CASE WHEN du_5gnr_endc_drop_pct>= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50 or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub6
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub6:
+                            select *,
+                                   (case when du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50 or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80) then 100 else 0 end) as calculated_value,
+                                   ((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50 or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) as condition_result
+                            from "du_samsung"
+                            where ((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50 or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub6 executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub6 on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub6.CTX on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub6.CTX: CASE WHEN (du_5gnr_endc_drop_pct>= 5 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > .50) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub6.CTX
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub6.CTX:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > .50) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > .50))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 5 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > .50))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub6.CTX executed successfully on du_samsung: 427 matching rows
+INFO:__main__:Rule results saved to database: 427 rows for rule DU.Samsung.Performance.Sub6.CTX
+INFO:__main__:Success: Results saved for rule DU.Samsung.Performance.Sub6.CTX on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub6.NENG on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub6.NENG: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub6.NENG
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub6.NENG:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub6.NENG executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub6.NENG on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.Samsung.Performance.Sub6.UPNY on table du_samsung
+INFO:__main__:Converted formula for rule DU.Samsung.Performance.Sub6.UPNY: CASE WHEN (du_5gnr_endc_drop_pct>= 25 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent >= 25) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.Samsung.Performance.Sub6.UPNY
+INFO:__main__:Executing SQL for rule DU.Samsung.Performance.Sub6.UPNY:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 25 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float >= 25))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.Samsung.Performance.Sub6.UPNY executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.Samsung.Performance.Sub6.UPNY on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.UPNY_SS_Performance_Issues_CLP on table du_samsung
+INFO:__main__:Converted formula for rule DU.UPNY_SS_Performance_Issues_CLP: CASE WHEN (du_5gnr_endc_drop_pct >= 80 and du_s5nr_maxrrcconnectedusersperdu_number > 1 and du_5gnr_endc_drop_pct_num > 50) or (du_erabaddatt_per_gnb_number > 100 and du_s5nr_totalerabsetupfailurerate_percent > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.UPNY_SS_Performance_Issues_CLP
+INFO:__main__:Executing SQL for rule DU.UPNY_SS_Performance_Issues_CLP:
+                            select *,
+                                   (case when (du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80) then 100 else 0 end) as calculated_value,
+                                   (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) as condition_result
+                            from "du_samsung"
+                            where (((du_5gnr_endc_drop_pct::float >= 80 and du_s5nr_maxrrcconnectedusersperdu_number::float > 1 and du_5gnr_endc_drop_pct_num::float > 50) or (du_erabaddatt_per_gnb_number::float > 100 and du_s5nr_totalerabsetupfailurerate_percent::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.UPNY_SS_Performance_Issues_CLP executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.UPNY_SS_Performance_Issues_CLP on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: du_samsung
+INFO:__main__:Found 1 matching tables for focal entity: DU
+INFO:__main__:Matching tables: ['du_samsung']
+INFO:__main__:Executing rule DU.vdu.endc.drop on table du_samsung
+INFO:__main__:Converted formula for rule DU.vdu.endc.drop: CASE WHEN (du_s5nr_maxrrcconnectedusersperdu_number > 1) and (du_5gnr_endc_drop_pct_num > 50) THEN du_5gnr_endc_drop_pct::float ELSE 0::float END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule DU.vdu.endc.drop
+INFO:__main__:Executing SQL for rule DU.vdu.endc.drop:
+                            select *,
+                                   (case when (du_s5nr_maxrrcconnectedusersperdu_number::float > 1) and (du_5gnr_endc_drop_pct_num::float > 50) then du_5gnr_endc_drop_pct::float else 0::float end) as calculated_value,
+                                   (((du_s5nr_maxrrcconnectedusersperdu_number::float > 1) and (du_5gnr_endc_drop_pct_num::float > 50))) as condition_result
+                            from "du_samsung"
+                            where (((du_s5nr_maxrrcconnectedusersperdu_number::float > 1) and (du_5gnr_endc_drop_pct_num::float > 50))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule DU.vdu.endc.drop executed on du_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule DU.vdu.endc.drop on table du_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Processing rules for focal entity: GNB
+INFO:__main__:Found 7 rules for focal entity: GNB
+INFO:__main__:Rules: [RealDictRow({'aggregation': 'Max', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '([GNB]![{GNB.ENDCAddsucc}]/[GNB]![{GNB.ENDCAddAtt}])*100', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': '(gnb_endcaddsucc/gnb_endcaddatt)*100', 'udc_config_name': 'GNB.ACPF.SetupFail', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'acpf_gnb_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '(([GNB]![{GNB.Attach_Success_RN_Den}] > 10) AND ([GNB]![{GNB.Attach_Success_rate_pct_RN}] < 80 OR [GNB]![{GNB.Drop_rate_pct_RN}] > 20 OR [GNB]![{GNB.Cell_Availability_RN}] < 80)) ? 100:0', 'modified': '1734510000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (gnb_attach_success_rn_den > 10) and (gnb_attach_success_rate_pct_rn < 80 or gnb_drop_rate_pct_rn > 20 or gnb_cell_availability_rn < 80) THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Corning.Performance', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'gnb_corning', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '(([GNB]![{GNB.5GNR_ENDC_Drop_pct}] >= 80 AND [GNB]![{GNB.5GNR_Peak_numOf_UE}] > 1 AND [GNB]![{GNB.5GNR_ENDC_Drop_Num}] > 50)\r\nOR\r\n([GNB]![{GNB.pmEndcSetupUeAtt}] > 100 AND [GNB]![{GNB.5GNR_ENDC_Setup_Failure_pct}] > 80)\r\nOR\r\n([GNB]![{GNB.pmEndcSetupUeAtt}] > 100 AND [GNB]![{GNB.5GNR_DL_MAC_Volume_MB}] = 0)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 1 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_dl_mac_volume_mb = 0) THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Ericsson.Performance', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'gnb_ericsson', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '([GNB]![{GNB.5GNR_ENDC_Drop_pct}] >= 80 AND [GNB]![{GNB.5GNR_Peak_numOf_UE}] > 10 AND [GNB]![{GNB.5GNR_ENDC_Drop_Num}] > 50) ?  100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 10 and gnb_5gnr_endc_drop_num > 50 THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Ericsson.performance.MMW', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'gnb_ericsson', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '(([GNB]![{GNB.5GNR_ENDC_Drop_pct}] >= 80 AND [GNB]![{GNB.5GNR_Peak_numOf_UE}] > 5 AND [GNB]![{GNB.5GNR_ENDC_Drop_Num}] > 50) OR ([GNB]![{GNB.pmEndcSetupUeAtt}] > 100 AND [GNB]![{GNB.5GNR_ENDC_Setup_Failure_pct}] > 80)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 5 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Ericsson.performance.Sub3', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'gnb_ericsson', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Average', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '(([GNB]![{GNB.5GNR_ENDC_Drop_pct}] >= 80 AND [GNB]![{GNB.5GNR_Peak_numOf_UE}] > 1 AND [GNB]![{GNB.5GNR_ENDC_Drop_Num}] > 50) OR ([GNB]![{GNB.pmEndcSetupUeAtt}] > 100 AND [GNB]![{GNB.5GNR_ENDC_Setup_Failure_pct}] > 80)) ? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 1 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Ericsson.performance.Sub6', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'gnb_ericsson', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Max', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'GNB', 'formula': '(([GNB]![{GNB.InThruPeak}] >= 8000 OR [GNB]![{GNB.OutThruPeak}] >= 8000) OR ([GNB]![{GNB.UpcLoadMax}] >= 60))? 100 : 0', 'modified': '1734510000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN (gnb_inthrupeak >= 8000 or gnb_outthrupeak >= 8000) or (gnb_upcloadmax >= 60) THEN 100 ELSE 0 END', 'udc_config_name': 'GNB.Peak.Load', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'aupf_gnb_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))})]
+INFO:__main__:Table name from rule tablename: acpf_gnb_samsung
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['acpf_gnb_samsung']
+INFO:__main__:Executing rule GNB.ACPF.SetupFail on table acpf_gnb_samsung
+INFO:__main__:Converted formula for rule GNB.ACPF.SetupFail: (gnb_endcaddsucc/gnb_endcaddatt)*100
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.ACPF.SetupFail
+INFO:__main__:Executing SQL for rule GNB.ACPF.SetupFail:
+                    select *,
+                               ((gnb_endcaddsucc::float / gnb_endcaddatt::float)*100) as calculated_value
+                    from "acpf_gnb_samsung"
+                    where ((gnb_endcaddsucc::float / gnb_endcaddatt::float)*100) is not null and "created_at" >= '2025-09-24 17:05:46'
+
+ERROR:database_config:Error executing query: division by zero
+
+WARNING:__main__:Error executing rule GNB.ACPF.SetupFail on acpf_gnb_samsung: division by zero
+
+INFO:__main__:Unsuccessful: No results saved for rule GNB.ACPF.SetupFail on table acpf_gnb_samsung
+INFO:__main__:Table name from rule tablename: gnb_corning
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['gnb_corning']
+INFO:__main__:Executing rule GNB.Corning.Performance on table gnb_corning
+INFO:__main__:Converted formula for rule GNB.Corning.Performance: CASE WHEN (gnb_attach_success_rn_den > 10) and (gnb_attach_success_rate_pct_rn < 80 or gnb_drop_rate_pct_rn > 20 or gnb_cell_availability_rn < 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Corning.Performance
+INFO:__main__:Executing SQL for rule GNB.Corning.Performance:
+                            select *,
+                                   (case when (gnb_attach_success_rn_den::float > 10) and (gnb_attach_success_rate_pct_rn::float < 80 or gnb_drop_rate_pct_rn::float > 20 or gnb_cell_availability_rn::float < 80) then 100 else 0 end) as calculated_value,
+                                   (((gnb_attach_success_rn_den::float > 10) and (gnb_attach_success_rate_pct_rn::float < 80 or gnb_drop_rate_pct_rn::float > 20 or gnb_cell_availability_rn::float < 80))) as condition_result
+                            from "gnb_corning"
+                            where (((gnb_attach_success_rn_den::float > 10) and (gnb_attach_success_rate_pct_rn::float < 80 or gnb_drop_rate_pct_rn::float > 20 or gnb_cell_availability_rn::float < 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Corning.Performance executed successfully on gnb_corning: 9 matching rows
+INFO:__main__:Rule results saved to database: 9 rows for rule GNB.Corning.Performance
+INFO:__main__:Success: Results saved for rule GNB.Corning.Performance on table gnb_corning
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: gnb_ericsson
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['gnb_ericsson']
+INFO:__main__:Executing rule GNB.Ericsson.Performance on table gnb_ericsson
+INFO:__main__:Converted formula for rule GNB.Ericsson.Performance: CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 1 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_dl_mac_volume_mb = 0) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Ericsson.Performance
+INFO:__main__:Executing SQL for rule GNB.Ericsson.Performance:
+                            select *,
+                                   (case when (gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_dl_mac_volume_mb::float = 0) then 100 else 0 end) as calculated_value,
+                                   (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_dl_mac_volume_mb::float = 0))) as condition_result
+                            from "gnb_ericsson"
+                            where (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_dl_mac_volume_mb::float = 0))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Ericsson.Performance executed successfully on gnb_ericsson: 2 matching rows
+INFO:__main__:Rule results saved to database: 2 rows for rule GNB.Ericsson.Performance
+INFO:__main__:Success: Results saved for rule GNB.Ericsson.Performance on table gnb_ericsson
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: gnb_ericsson
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['gnb_ericsson']
+INFO:__main__:Executing rule GNB.Ericsson.performance.MMW on table gnb_ericsson
+INFO:__main__:Converted formula for rule GNB.Ericsson.performance.MMW: CASE WHEN gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 10 and gnb_5gnr_endc_drop_num > 50 THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Ericsson.performance.MMW
+INFO:__main__:Executing SQL for rule GNB.Ericsson.performance.MMW:
+                        select *,
+                               (case when gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 10 and gnb_5gnr_endc_drop_num::float > 50 then 100 else 0 end) as calculated_value,
+                               (gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 10 and gnb_5gnr_endc_drop_num::float > 50) as condition_result
+                        from "gnb_ericsson"
+                        where (gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 10 and gnb_5gnr_endc_drop_num::float > 50) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Ericsson.performance.MMW executed on gnb_ericsson: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule GNB.Ericsson.performance.MMW on table gnb_ericsson
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: gnb_ericsson
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['gnb_ericsson']
+INFO:__main__:Executing rule GNB.Ericsson.performance.Sub3 on table gnb_ericsson
+INFO:__main__:Converted formula for rule GNB.Ericsson.performance.Sub3: CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 5 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Ericsson.performance.Sub3
+INFO:__main__:Executing SQL for rule GNB.Ericsson.performance.Sub3:
+                            select *,
+                                   (case when (gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 5 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80) then 100 else 0 end) as calculated_value,
+                                   (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 5 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80))) as condition_result
+                            from "gnb_ericsson"
+                            where (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 5 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Ericsson.performance.Sub3 executed on gnb_ericsson: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule GNB.Ericsson.performance.Sub3 on table gnb_ericsson
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: gnb_ericsson
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['gnb_ericsson']
+INFO:__main__:Executing rule GNB.Ericsson.performance.Sub6 on table gnb_ericsson
+INFO:__main__:Converted formula for rule GNB.Ericsson.performance.Sub6: CASE WHEN (gnb_5gnr_endc_drop_pct >= 80 and gnb_5gnr_peak_numof_ue > 1 and gnb_5gnr_endc_drop_num > 50) or (gnb_pmendcsetupueatt > 100 and gnb_5gnr_endc_setup_failure_pct > 80) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Ericsson.performance.Sub6
+INFO:__main__:Executing SQL for rule GNB.Ericsson.performance.Sub6:
+                            select *,
+                                   (case when (gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80) then 100 else 0 end) as calculated_value,
+                                   (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80))) as condition_result
+                            from "gnb_ericsson"
+                            where (((gnb_5gnr_endc_drop_pct::float >= 80 and gnb_5gnr_peak_numof_ue::float > 1 and gnb_5gnr_endc_drop_num::float > 50) or (gnb_pmendcsetupueatt::float > 100 and gnb_5gnr_endc_setup_failure_pct::float > 80))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Ericsson.performance.Sub6 executed successfully on gnb_ericsson: 2 matching rows
+INFO:__main__:Rule results saved to database: 2 rows for rule GNB.Ericsson.performance.Sub6
+INFO:__main__:Success: Results saved for rule GNB.Ericsson.performance.Sub6 on table gnb_ericsson
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: aupf_gnb_samsung
+INFO:__main__:Found 1 matching tables for focal entity: GNB
+INFO:__main__:Matching tables: ['aupf_gnb_samsung']
+INFO:__main__:Executing rule GNB.Peak.Load on table aupf_gnb_samsung
+INFO:__main__:Converted formula for rule GNB.Peak.Load: CASE WHEN (gnb_inthrupeak >= 8000 or gnb_outthrupeak >= 8000) or (gnb_upcloadmax >= 60) THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule GNB.Peak.Load
+INFO:__main__:Executing SQL for rule GNB.Peak.Load:
+                            select *,
+                                   (case when (gnb_inthrupeak::float >= 8000 or gnb_outthrupeak::float >= 8000) or (gnb_upcloadmax::float >= 60) then 100 else 0 end) as calculated_value,
+                                   (((gnb_inthrupeak::float >= 8000 or gnb_outthrupeak::float >= 8000) or (gnb_upcloadmax::float >= 60))) as condition_result
+                            from "aupf_gnb_samsung"
+                            where (((gnb_inthrupeak::float >= 8000 or gnb_outthrupeak::float >= 8000) or (gnb_upcloadmax::float >= 60))) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule GNB.Peak.Load executed successfully on aupf_gnb_samsung: 14 matching rows
+INFO:__main__:Rule results saved to database: 14 rows for rule GNB.Peak.Load
+INFO:__main__:Success: Results saved for rule GNB.Peak.Load on table aupf_gnb_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Processing rules for focal entity: AUPF
+INFO:__main__:Found 3 rules for focal entity: AUPF
+INFO:__main__:Rules: [RealDictRow({'aggregation': 'Max', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'AUPF', 'formula': '([AUPF]![{AUPF.CpuUsageMax.percent}]>95 OR [AUPF]![{AUPF.MemUsageMax.percent}]>95)? 100:0', 'modified': '1734510000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN aupf_cpuusagemax_percent>95 or aupf_memusagemax_percent>95 THEN 100 ELSE 0 END', 'udc_config_name': 'AUPF.UIC.Utilization', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'aupf_vcu_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Max', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'AUPF', 'formula': '([AUPF]![{AUPF.CpuUsageMax.percent}]>95 OR \r\n[AUPF]![{AUPF.MemUsageMax.percent}]>95)? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN aupf_cpuusagemax_percent>95 or aupf_memusagemax_percent>95 THEN 100 ELSE 0 END', 'udc_config_name': 'AUPF.UMC.Utilization', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'aupf_vcu_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))}), RealDictRow({'aggregation': 'Max', 'can_edit': 'true', 'data_type': 'DOUBLE', 'description': 'NaN', 'field_type': 'UserDefined', 'focal_entity': 'AUPF', 'formula': '([AUPF]![{AUPF.CpuUsageMax.percent}]>92.5 OR \r\n[AUPF]![{AUPF.MemUsageMax.percent}]>92.5)? 100:0', 'modified': '1716210000000.0', 'owner': 'Admin', 'parsed_formula': 'CASE WHEN aupf_cpuusagemax_percent>92.5 or aupf_memusagemax_percent>92.5 THEN 100 ELSE 0 END', 'udc_config_name': 'AUPF.UPC.Utilization', 'user_groups': 'NaN', 'aggregation_type': 'NA', 'tablename': 'aupf_vcu_samsung', 'grouptable': 'NaN', 'last_executed': None, 'execution_count': 0, 'last_successful_execution': None, 'created_at': datetime.datetime(2025, 9, 24, 17, 5, 46, 730150, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))})]
+INFO:__main__:Table name from rule tablename: aupf_vcu_samsung
+INFO:__main__:Found 1 matching tables for focal entity: AUPF
+INFO:__main__:Matching tables: ['aupf_vcu_samsung']
+INFO:__main__:Executing rule AUPF.UIC.Utilization on table aupf_vcu_samsung
+INFO:__main__:Converted formula for rule AUPF.UIC.Utilization: CASE WHEN aupf_cpuusagemax_percent>95 or aupf_memusagemax_percent>95 THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule AUPF.UIC.Utilization
+INFO:__main__:Executing SQL for rule AUPF.UIC.Utilization:
+                        select *,
+                               (case when aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95 then 100 else 0 end) as calculated_value,
+                               (aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95) as condition_result
+                        from "aupf_vcu_samsung"
+                        where (aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule AUPF.UIC.Utilization executed on aupf_vcu_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule AUPF.UIC.Utilization on table aupf_vcu_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: aupf_vcu_samsung
+INFO:__main__:Found 1 matching tables for focal entity: AUPF
+INFO:__main__:Matching tables: ['aupf_vcu_samsung']
+INFO:__main__:Executing rule AUPF.UMC.Utilization on table aupf_vcu_samsung
+INFO:__main__:Converted formula for rule AUPF.UMC.Utilization: CASE WHEN aupf_cpuusagemax_percent>95 or aupf_memusagemax_percent>95 THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule AUPF.UMC.Utilization
+INFO:__main__:Executing SQL for rule AUPF.UMC.Utilization:
+                        select *,
+                               (case when aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95 then 100 else 0 end) as calculated_value,
+                               (aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95) as condition_result
+                        from "aupf_vcu_samsung"
+                        where (aupf_cpuusagemax_percent::float > 95 or aupf_memusagemax_percent::float > 95) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule AUPF.UMC.Utilization executed on aupf_vcu_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule AUPF.UMC.Utilization on table aupf_vcu_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Table name from rule tablename: aupf_vcu_samsung
+INFO:__main__:Found 1 matching tables for focal entity: AUPF
+INFO:__main__:Matching tables: ['aupf_vcu_samsung']
+INFO:__main__:Executing rule AUPF.UPC.Utilization on table aupf_vcu_samsung
+INFO:__main__:Converted formula for rule AUPF.UPC.Utilization: CASE WHEN aupf_cpuusagemax_percent>92.5 or aupf_memusagemax_percent>92.5 THEN 100 ELSE 0 END
+INFO:__main__:Filtering data from rule creation time 2025-09-24 17:05:46.730150-04:00 for rule AUPF.UPC.Utilization
+INFO:__main__:Executing SQL for rule AUPF.UPC.Utilization:
+                        select *,
+                               (case when aupf_cpuusagemax_percent::float > 92.5 or aupf_memusagemax_percent::float > 92.5 then 100 else 0 end) as calculated_value,
+                               (aupf_cpuusagemax_percent::float > 92.5 or aupf_memusagemax_percent::float > 92.5) as condition_result
+                        from "aupf_vcu_samsung"
+                        where (aupf_cpuusagemax_percent::float > 92.5 or aupf_memusagemax_percent::float > 92.5) = true and "created_at" >= '2025-09-24 17:05:46'
+
+INFO:__main__:Rule AUPF.UPC.Utilization executed on aupf_vcu_samsung: No matching rows
+INFO:__main__:Unsuccessful: No results saved for rule AUPF.UPC.Utilization on table aupf_vcu_samsung
+INFO:__main__:update_sql:
+                    INSERT INTO "rule_execution_tracking"
+                    ("rule_name", "table_name", "last_executed", "last_successful_execution", "execution_count")
+                    VALUES (%s, %s, %s, %s, 1)
+                    ON CONFLICT ("rule_name")
+                    DO UPDATE SET
+                        "last_executed" = EXCLUDED."last_executed",
+                        "last_successful_execution" = EXCLUDED."last_successful_execution",
+                        "execution_count" = "rule_execution_tracking"."execution_count" + 1
+
+INFO:__main__:update_sql executed successfully
+INFO:__main__:Performance rules execution completed. Executed 31 rules, saved 11 result files.
+INFO:database_config:Database connection closed
+
+(venv) C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\Analytics>

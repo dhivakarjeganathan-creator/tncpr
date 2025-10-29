@@ -1,0 +1,13 @@
+I want to execute the metricsandtables.sql file in PostgreSQL database
+
+store the dbconfig in a .env file. Its PostgreSQL and the connection details are 
+
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hierarchy_db
+DB_USER=postgres
+DB_PASSWORD=test@1234
+
+refer these tables and queries as needed in the database
+

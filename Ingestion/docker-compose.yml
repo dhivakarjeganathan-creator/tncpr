@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  etl-processor:
+    build: .
+    container_name: etl-processor
+    volumes:
+      # Mount data directories for input/output files
+      - ./data/input:/app/data/input:ro
+      - ./data/output:/app/data/output
+      - ./data/config:/app/data/config:ro
+      # Mount logs directory
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import etl_processor; print('ETL Processor is healthy')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    # Override default command if needed
+    # command: ["python", "example_usage.py"]
+    
+  # Optional: Add a development service with live reload
+  etl-processor-dev:
+    build: .
+    container_name: etl-processor-dev
+    volumes:
+      - .:/app
+      - ./data/input:/app/data/input:ro
+      - ./data/output:/app/data/output
+      - ./data/config:/app/data/config:ro
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=DEBUG
+    ports:
+      - "8001:8000"
+    command: ["python", "-m", "pytest", "test_etl_processor.py", "-v"]
+    profiles:
+      - dev
+
+volumes:
+  etl-data:
+    driver: local

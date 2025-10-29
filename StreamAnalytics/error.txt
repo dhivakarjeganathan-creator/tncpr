@@ -1,0 +1,10 @@
+2025-09-25 16:29:14,484 - INFO - Successfully connected to PostgreSQL database
+2025-09-25 16:29:14,707 - INFO - Database tables created successfully
+2025-09-25 16:29:14,707 - INFO - Loaded 19 records from Streaming_analytics.json
+2025-09-25 16:29:14,740 - ERROR - Failed to insert job ACPF.Endc.Drop: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-09-25 16:29:14,740 - ERROR - Failed to load data: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-09-25 16:29:14,742 - ERROR - Error in main execution: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-09-25 16:29:14,742 - INFO - Database connection closed

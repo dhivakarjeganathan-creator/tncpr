@@ -1,0 +1,645 @@
+[
+    {
+        "JOB_NAME": "ACPF.Endc.Drop",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "ACPF",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddAtt"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddSuccRate"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddprepSucc"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddsucc"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddAtt"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddprepSucc"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddsucc"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "ACPF.Endc.Drop",
+            "windowGran": "1-hour"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758203787602,
+        "CREATE_TIME": 1737546650386,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.GNB.Peak.Load",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "GNB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.Peak.Load"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "AUPF.GNB.Peak.Load",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201926669,
+        "CREATE_TIME": 1737546650401,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.Stream",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "AUPF",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.UMC.Utilization"
+                },
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.UIC.Utilization"
+                },
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "AUPF",
+                    "name": "AUPF.UPC.Utilization"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "AUPF.Stream",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758199816142,
+        "CREATE_TIME": 1737546650285,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.UPC_load.Max",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "AUPF",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "UPC",
+                    "name": "UPC.UpcLoadAvg"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "AUPF.UPC_load.Max",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758202995369,
+        "CREATE_TIME": 1737546650608,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "AUPF.UPC_load.Min",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "AUPF",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Min"
+                    ],
+                    "entity": "UPC",
+                    "name": "UPC.UpcLoadAvg"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "AUPF.UPC_load.Min",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201954016,
+        "CREATE_TIME": 1737546650593,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "CorningCarrier.RN.Stall",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "CorningCarrier",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "CorningCarrier",
+                    "name": "CorningCarrier.rn.stall"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "CorningCarrier.RN.Stall",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758199822657,
+        "CREATE_TIME": 1737546650415,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "DU.Samsung.Performance",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "DU",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.MMW"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub6"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub3"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.MMW.NENG"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub3.NENG"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub6.NENG"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "DU.Samsung.Performance",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758199394606,
+        "CREATE_TIME": 1743702907478,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "DU.Samsung.Performance.CTX",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "DU",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub3.CTX"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.MMW.CTX"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub6.CTX"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "DU.Samsung.Performance.CTX",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201019097,
+        "CREATE_TIME": 1737546650620,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "DU.Samsung.Performance.UPNY",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "DU",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub6.UPNY"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.MMW.UPNY"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.Samsung.Performance.Sub3.UPNY"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "DU.Samsung.Performance.UPNY",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201019065,
+        "CREATE_TIME": 1737546650560,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "DU.UPNY_SS_Performance_Issues_CLP",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "DU",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "DU",
+                    "name": "DU.UPNY_SS_Performance_Issues_CLP"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "DU.UPNY_SS_Performance_Issues_CLP",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201019084,
+        "CREATE_TIME": 1746708207715,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ENB.Ericsson_KPI",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "ENB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.Ericsson_KPI"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "ENB.Ericsson_KPI",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758202987885,
+        "CREATE_TIME": 1737546650579,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ENB.SEA_NOK_KPI",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "ENB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_KPI"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_KPI.UPNY"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_Threshold.CTX"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "ENB",
+                    "name": "ENB.SEA_NOK_Threshold.NENG"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "ENB.SEA_NOK_KPI",
+            "windowGran": "5-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201186324,
+        "CREATE_TIME": 1737546650665,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "GNB.ACPF.SetupFail",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "GNB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Max"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ACPF.SetupFail"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "GNB.ACPF.SetupFail",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758203799506,
+        "CREATE_TIME": 1737546650428,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "GNB.Corning.Streams",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "GNB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.Corning.Performance"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "GNB.Corning.Streams",
+            "windowGran": "15-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758203486301,
+        "CREATE_TIME": 1737546650542,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "GNB.Ericsson.Performance",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "GNB",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.Ericsson.performance.Sub6"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.Ericsson.performance.Sub3"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.Ericsson.performance.MMW"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "GNB.Ericsson.Performance",
+            "windowGran": "15-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758205112877,
+        "CREATE_TIME": 1737546650530,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "Juniper.SRX.Analytics",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "VM",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "VM",
+                    "name": "VM.JU-SRX-CPU-Usage"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "Juniper.SRX.Analytics",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758202437987,
+        "CREATE_TIME": 1737546650500,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "Monitoring5GPT.Stream",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "Monitoring5GPT",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "Monitoring5GPT",
+                    "name": "Monitoring5GPT.UDC"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "Monitoring5GPT.Stream",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758284626369,
+        "CREATE_TIME": 1746534195466,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "Region.MRF.Aggr",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "Region",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "MRF",
+                    "name": "MRF.MaxConcCallsMaxAudioCallCtrl"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "MRF",
+                    "name": "MRF.MaxConcCallsMaxConfAppli"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "MRF",
+                    "name": "MRF.MaxConcCallsMaxConfCall"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "Region.MRF.Aggr",
+            "windowGran": "15-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758201963445,
+        "CREATE_TIME": 1737546650485,
+        "ENABLE_FLAG": true
+    },
+    {
+        "JOB_NAME": "ThermalFans.FansSpeed",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "ThermalFans",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "Min"
+                    ],
+                    "entity": "ThermalFans",
+                    "name": "ThermalFans.VCPfe.HP"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "ThermalFans.FansSpeed",
+            "windowGran": "1-minute"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758203495804,
+        "CREATE_TIME": 1737546650516,
+        "ENABLE_FLAG": true
+    }
+]

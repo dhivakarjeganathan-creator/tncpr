@@ -1,0 +1,38 @@
+I want to use the below query and create insert sql statements for each row returned by the below query.
+
+SELECT distinct
+    b.nfname_expr_value AS node,
+    CASE 
+        WHEN lower(a.alarm_severity) = 'critical' THEN 5
+        WHEN lower(a.alarm_severity) = 'major' THEN 4
+        WHEN lower(a.alarm_severity) = 'minor' THEN 3
+        ELSE 0
+    END AS severity,
+    a.alarm_message AS summary,
+    a.metricname AS alertgroup,
+    a.record_id AS alertkey,
+    a.record_id AS identifier,
+    '2' AS type,
+    b.region AS Region
+FROM threshold_alarms a left join nfname_results b on a.record_id = b.id_expr
+where a.created_at <= lastexecutiontime
+
+The lastexecutiontime should be stored in a new table to ensure next time, this time is used so we don't retrieve the same information again from the query.
+
+insert statement should look like this.
+
+insert into  alerts.status(Node,Severity,Summary,AlertGroup,AlertKey,Identifier,Type,Region) values 
+(node, severity, summary, alertgroup, alertkey, identifier, type, region)
+
+Output of every run, store all the sql files in one .sql file.
+
+store the dbconfig in a .env file. Its PostgreSQL and the connection details are 
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hierarchy_db
+DB_USER=postgres
+DB_PASSWORD=test@1234
+
+refer these tables and queries as needed in the database
+

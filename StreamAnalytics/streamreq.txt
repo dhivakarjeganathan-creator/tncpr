@@ -1,0 +1,72 @@
+I have the json file Streaming_analytics.json which contains list of objects in this format.
+
+{
+        "JOB_NAME": "ACPF.Endc.Drop",
+        "JOB_TYPE": "STREAM",
+        "DEFINITION": {
+            "focalEntity": "ACPF",
+            "focalType": "resourceType",
+            "metricList": [
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddAtt"
+                },
+                {
+                    "aggr": [
+                        "Average"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddSuccRate"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddprepSucc"
+                },
+                {
+                    "aggr": [
+                        "sum"
+                    ],
+                    "entity": "GNB",
+                    "name": "GNB.ENDCAddsucc"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddAtt"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddprepSucc"
+                },
+                {
+                    "aggr": [
+                        "Sum"
+                    ],
+                    "entity": "ACPF",
+                    "name": "ACPF.ENDCAddsucc"
+                }
+            ],
+            "resourceFilter": "",
+            "streamName": "ACPF.Endc.Drop",
+            "windowGran": "1-hour"
+        },
+        "EVENT_TYPE": "SUBSCRIBE",
+        "EVENT_NAME": "",
+        "UPDATE_TIME": 1758203787602,
+        "CREATE_TIME": 1737546650386,
+        "ENABLE_FLAG": true
+    }
+
+i want to store this information in a PostgreSQL table.
+can you provide a good structure to retrieve information after stored in a table.

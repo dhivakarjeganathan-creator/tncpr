@@ -1,0 +1,37 @@
+DAY,HR,5G,REGION,MARKET,MARKET_DESC,SITE,GNB,PdcpSduLossRateUL,PdcpSduRetxByteDL,PdcpMaxThroughputDL,PdcpMaxThroughputUL,PdcpSduMaxVolumeDL,PdcpSduMaxVolumeUL,PdcpSduVolumeDL,PdcpSduVolumeUL,UpcLoadAvg,UpcLoadCnt,UpcLoadMax,UpcLoadMin,UpcLoadTot,PdcpSduLossRateDL,ENDCAddAtt,ENDCAddSuccRate,ENDCAddprepSucc,ENDCAddsucc,ENDCRelbySgnb,CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE,InThruPeak,OutThruPeak
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000700,0,0.18,110729.63,27682.41,132,33,12523,2649,0.11,540,1.12,0,58.12,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000701,0,0,12582.91,838.86,15,1,120,5,0,540,0.5,0,0.5,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000703,0,0,13421.77,0,16,0,54,15,0.01,540,2,0,3.74,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000716,0.02,0,17616.08,28521.27,21,34,1545,199,0,540,0.38,0,0.87,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009702,0.01,183.29,615723.83,83886.08,734,100,656911,78954,10.26,1890,23.12,0,17963.27,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009707,0,51.37,313733.94,48653.93,374,58,291235,29494,9.98,2159,26.62,0,21554.77,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009713,0.01,43.19,438724.2,62075.7,523,74,353365,38922,10.07,2160,26.5,0,21757,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000702,0,0,71303.17,39426.46,85,47,1975,241,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000704,0,0.16,141767.48,1677.72,169,2,3926,59,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000705,0.01,0,20132.66,0,24,0,62,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000706,0,0,97307.85,0,116,0,496,11,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000707,0,0.02,18454.94,838.86,22,1,447,19,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000708,0,0,4194.3,838.86,5,1,40,8,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000711,0.01,0.03,168611.02,63753.42,201,76,3857,1318,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000712,0.03,0,40265.32,3355.44,48,4,2094,74,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000717,0,0,44459.62,1677.72,53,2,1120,22,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000718,0,0,19293.8,0,23,0,571,13,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000719,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000721,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000722,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000723,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1000724,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009700,0.01,60.71,482344.96,47815.07,575,57,323186,43481,0,0,0,0,0,0.05,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009701,0,13.95,355676.98,94791.27,424,113,168644,26248,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009703,0,50.44,752458.14,104018.74,897,124,791982,90198,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009704,0,35.26,732325.48,84724.94,873,101,659959,63832,0,0,0,0,0,0.04,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009705,0,19.52,541904.08,75497.47,646,90,403663,43405,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009706,0,7.42,547776.1,58720.26,653,70,272469,26293,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009708,0,4.17,504994.2,88919.24,602,106,501165,63855,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009709,0.01,109.57,494089.01,94791.27,589,113,444668,48237,0,0,0,0,0,0.01,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009710,0,22.75,476472.93,44459.62,568,53,333310,35397,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009711,0,68.17,150994.94,31876.71,180,38,113023,20224,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009712,0.01,45.87,496605.59,124151.4,592,148,304479,38521,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Philadelphia Tri-State,100,Burlington - Maple Shade,NWCS,1009904,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+Total,*,*,*,*,*,*,*,0,716.07,752458.14,124151.4,897,148,5646889,651694,4.35,8369,26.62,0,61338.27,0,0,NaN,0,0,0,0,0,0

@@ -1,0 +1,20 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170650,2025-10-07T21:00:00-05:00,3600,4998,4998,4996,,7,99.96
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170651,2025-10-07T21:00:00-05:00,3600,1919,1919,1917,,11,99.9
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170652,2025-10-07T21:00:00-05:00,3600,489,489,488,,1,99.8
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170653,2025-10-07T21:00:00-05:00,3600,184,184,184,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170654,2025-10-07T21:00:00-05:00,3600,217,217,217,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1170655,2025-10-07T21:00:00-05:00,3600,0,0,0,,0,NaN
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179650,2025-10-07T21:00:00-05:00,3600,260100,259910,259769,,1502,99.87
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179651,2025-10-07T21:00:00-05:00,3600,0,0,0,,0,NaN
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179652,2025-10-07T21:00:00-05:00,3600,37238,37237,37220,,246,99.95
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179653,2025-10-07T21:00:00-05:00,3600,108530,108421,108354,,606,99.84
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179654,2025-10-07T21:00:00-05:00,3600,85903,85903,85817,,568,99.9
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179655,2025-10-07T21:00:00-05:00,3600,63550,63505,63467,,416,99.87
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179656,2025-10-07T21:00:00-05:00,3600,49726,49726,49692,,398,99.93
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179657,2025-10-07T21:00:00-05:00,3600,8,8,8,,0,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179658,2025-10-07T21:00:00-05:00,3600,6728,6728,6725,,33,99.96
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179659,2025-10-07T21:00:00-05:00,3600,298,298,298,,2,100
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179660,2025-10-07T21:00:00-05:00,3600,1538,1538,1537,,9,99.93
+117,Washington/Baltimore/Virginia,VCP Edge 1.x,NR,,,1179661,2025-10-07T21:00:00-05:00,3600,0,0,0,,0,NaN
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,621426,621081,620689,,3799,99.88

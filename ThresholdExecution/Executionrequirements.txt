@@ -1,0 +1,23 @@
+
+select b.tablename, a.threshold_id, lower(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(a.metric, 'smax_',''), 'savg_', ''), 'ssum_', ''), 'smin_', ''), 'tmax', ''), 'tmin', ''), 'tavg', ''), 'tsum', ''), '_hour_', ''), '_day_', ''), '.','_')) metricname, 
+a.mode, a.category, a.lowerlimit, a.upperlimit,
+a.occurrence, a.clearoccurrence, a.cleartime, a.time, a.periodgranularity, a.schedule,
+a.resource, a.threshold_group
+from threshold_rules a inner join metricsandtables b on lower(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(a.metric, 'smax_',''), 'savg_', ''), 'ssum_', ''), 'smin_', ''), 'tmax', ''), 'tmin', ''), 'tavg', ''), 'tsum', ''), '_hour_', ''), '_day_', ''), '.','_')) = lower(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(b.metricname, 'smax_',''), 'savg_', ''), 'ssum_', ''), 'smin_', ''), 'tmax_', ''), 'tmin_', ''), 'tavg_', ''), 'tsum_', ''), '_hour_', ''), '_day_', ''), '.','_')) 
+where (a.activeuntil IS NULL 
+       OR a.activeuntil = 'No end date'
+       OR a.activeuntil::timestamp > now());
+
+use the above threshold query output for processing the below logic for each thresholdjob row. Don't change the query, use this query.
+
+1. For each row, two most important columns are tablename and metricname. Write a query to retrieve the metricname column, id, timestamp from the tablename table.
+2. If the tablename is "RuleExecutionResults" then use the value of udc_config_name column as the metricname and get the id, timestamp and the udc_config_value from the "RuleExecutionResults" table.
+3. if the lowerlimit or the upperlimit is not null then use it in the where clause of the query against the metricname column.
+give me a query for each row from the threshold query output.
+
+create .env file to store all the configuration information. Don't store the configuration information in any other file.
+Make use of the threshold query output to determine valid values of each column in the query.
+Give me the generated query for each thresholdjob. Execute them and show me how many records are returned?
+
+Create a new table and store the thresholdjob and the sqlquery generated, the record count and the current datetime for each row for the thresholdjob query in a separate table.
+

@@ -1,0 +1,16 @@
+DAY,HR,5G,REGION,MARKET,MARKET_DESC,SITE,GNB,PdcpSduLossRateUL,PdcpSduRetxByteDL,PdcpMaxThroughputDL,PdcpMaxThroughputUL,PdcpSduMaxVolumeDL,PdcpSduMaxVolumeUL,PdcpSduVolumeDL,PdcpSduVolumeUL,UpcLoadAvg,UpcLoadCnt,UpcLoadMax,UpcLoadMin,UpcLoadTot,PdcpSduLossRateDL,ENDCAddAtt,ENDCAddSuccRate,ENDCAddprepSucc,ENDCAddsucc,ENDCRelbySgnb,CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE,InThruPeak,OutThruPeak
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119350,0.04,143.39,839699.66,101502.16,1001,121,888040,89199,6.52,2160,21.12,0,14075.1,0,53798,99.87,53749,53728,152,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119351,0.06,34.55,451307.11,98146.71,538,117,341484,48177,0,0,0,0,0,0,19897,99.65,19832,19828,57,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119352,0,16.41,412719.51,135895.45,492,162,537239,85570,0,0,0,0,0,0,39288,99.79,39219,39206,98,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119353,0.07,22.1,668572.06,74658.61,797,89,485129,63500,0,0,0,0,0,0,20978,99.93,20968,20963,104,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119354,0.05,1.22,197132.29,31876.71,235,38,94098,12946,0,0,0,0,0,0,8286,99.94,8286,8281,38,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119355,0.01,0.94,472278.63,82208.36,563,98,419519,41422,0,0,0,0,0,0,13006,99.92,13004,12996,90,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,WDLW,1119358,0,0.03,104018.74,31876.71,124,38,32226,10768,0,0,0,0,0,0,1992,99.95,1992,1991,5,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1110352,0,0,0,0,0,0,0,0,0.01,720,1.5,0,6.5,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1110353,0,0,0,0,0,0,0,0,0.02,720,3.12,0,14.24,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119356,0,0,0,0,0,0,0,0,7.85,2160,22.38,0,16964.98,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1110350,0,0.05,296956.72,1677.72,354,2,3783,134,0,0,0,0,0,0,2724,99.96,2723,2723,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,CHNT,1119359,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,01,5GNR,Washington/Baltimore/Virginia,111,Southern Maryland - Woodlawn 1,WDLW,1110351,0.01,0,227331.28,838.86,271,1,2032,63,0,0,0,0,0,0,3413,100,3413,3413,0,0,0,0
+Total,*,*,*,*,*,*,*,0.02,218.69,839699.66,135895.45,1001,162,2803550,351779,3.6,5760,22.38,0,31060.82,0,163382,99.85,163186,163129,544,0,0,0

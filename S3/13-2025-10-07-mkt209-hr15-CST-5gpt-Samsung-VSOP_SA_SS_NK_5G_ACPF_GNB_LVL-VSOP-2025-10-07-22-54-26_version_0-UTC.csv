@@ -1,0 +1,5 @@
+DAY,HR,5G,REGION,MARKET,MARKET_DESC,SITE,GNB,PdcpSduLossRateUL,PdcpSduRetxByteDL,PdcpMaxThroughputDL,PdcpMaxThroughputUL,PdcpSduMaxVolumeDL,PdcpSduMaxVolumeUL,PdcpSduVolumeDL,PdcpSduVolumeUL,UpcLoadAvg,UpcLoadCnt,UpcLoadMax,UpcLoadMin,UpcLoadTot,PdcpSduLossRateDL,ENDCAddAtt,ENDCAddSuccRate,ENDCAddprepSucc,ENDCAddsucc,ENDCRelbySgnb,CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE,InThruPeak,OutThruPeak
+10/07/2025,15,5GNR,Illinois/Wisconsin,209,New Berlin,NWBL,2090904,0,0,0,0,0,0,0,0,0,719,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,15,5GNR,Illinois/Wisconsin,209,New Berlin,NWBL,2090841,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+10/07/2025,15,5GNR,Illinois/Wisconsin,209,New Berlin,NWBL,2090842,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NaN,0,0,0,0,0,0
+Total,*,*,*,*,*,*,*,0,0,0,0,0,0,0,0,0,719,0,0,0,0,0,NaN,0,0,0,0,0,0

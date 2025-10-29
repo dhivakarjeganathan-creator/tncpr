@@ -1,0 +1,32 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.S5NR_TotalERABSetupFailureRate_pct','GNB.ErabAddAtt_per_GNB','GNB.S5NR_AvgRRCconnectedUsersPerDU','GNB.S5NR_MaxRRCconnectedUsersPerDU','GNB.S5NR_DLMACLayerDataVolume_MB','GNB.S5NR_ULMACLayerDataVolume_MB','GNB.S5NR_TotalDLRLCLayerDataVolume_MB','GNB.S5NR_TotalULRLCLayerDataVolume_MB','GNB.S5NR_DLUserPerceivedTput_Mbps','GNB.S5NR_ULUserPerceivedTput_Mbps','GNB.5GNR_ENDC_Drop_pct_den','GNB.5GNR_ENDC_Drop_pct_num','GNB.5GNR_ENDC_Droppct','GNB.S5NR_RACH_SRpct','GNB.S5NR_DLPRBUtilization_pct','GNB.S5NR_ULPRBUtilization_pct','GNB.S5NR_IntragNBHOFailRate_pct','GNB.S5NR_IntragNBHOFailRate_den','GNB.S5NR_IntragNBHOFailRate_num','GNB.S5NR_IntergNBHOFailRate_pct','GNB.S5NR_IntergNBHOFailRate_den','GNB.S5NR_IntergNBHOFailRate_num','GNB.S5NR_RACH_CB_SRpct','GNB.S5NR_RACH_CF_SRpct','GNB.S5NR_RACH_Att_MSG1_CB','GNB.S5NR_RACH_Att_MSG2_CB','GNB.S5NR_RACH_Att_MSG2_CF','GNB.S5NR_RACH_Att_MSG3_CB','GNB.S5NR_RACH_Att_MSG3_CF','GNB.S5NR_RACH_Att_MSG5_CB','GNB.S5NR_PUCCH_BLER_pct','GNB.EndcRelBySgnb_DL_randomAccessProblem','GNB.EndcRelBySgnb_DL_rlcMaxNumRetx','GNB.EndcRelBySgnb_DL_scgReconfFailure','GNB.EndcRelBySgnb_DL_srb3IntegrityFailure','GNB.EndcRelBySgnb_DL_t310Expiry','GNB.EndcRelBySgnb_UL_outOfSync','GNB.EndcRelBySgnb_UL_srb3IntegrityFailure','GNB.EndcRelBySgnb_per_GNB','GNB.EndcRelByMeNB_radioConnectionWithUeLost','GNB.EndcRelByMenb_per_GNB','GNB.ENDCRELBYMENB_UECUSTOMSIGNATURE_FAILRADINTERPROC','GNB.ENDCRELBYMENB_UEPOWERSAVING','GNB.ENDCRELBYSGNB_MRBASEDSUSPENDRESUME','GNB.ENDCRELBYSGNB_USERINACTIVITY','GNB.EndcRelBySgnb_DL_syncReconfFailure','GNB.EndcRelBySgnb_UL_rlcMaxNumRetx','GNB.ErabAddSucc_per_GNB','GNB.CellAvailPmPeriodTime','GNB.CellAvailability','GNB.CellUnavailableTimeDown','GNB.S5NR_PUSCHAvgSINR_dB','GNB.S5NR_PUCCHAvgSINR_dB','GNB.CAUSEE1APTRANSPORTLAYERUNSPECIFIED','GNB.CAUSEE1APTRANSPORTLAYERTRANSPORTRESOURCEUNAVAILABLE','GNB.S5NR_PDCCH_SlotRationBlocking_DL_pct','GNB.S5NR_PDCCH_SlotRationBlocking_UL_pct','GNB.S5NR_PDCCH_SlotRationBlocking_Tot_pct','GNB.UpcLoadMax','GNB.BearerUsageMax','GNB.InThruPeak','GNB.OutThruPeak'
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519580,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519588,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,61.5,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519589,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519590,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519591,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519592,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519593,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519594,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519595,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510572,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,3.88,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510573,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510574,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510575,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510580,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510581,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510582,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510583,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510587,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510588,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,4.12,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510589,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510590,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2510591,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519572,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,52.88,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519573,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519574,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519575,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519576,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519578,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519586,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+251,Ohio/PA/WV,VCP Edge 1.x,NR,,,2519587,2025-10-07T11:00:00-05:00,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,0,0
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,61.5,,0,0

@@ -1,0 +1,17 @@
+For all the alarms stored in threshold_alarms. Use columns alarm_id, tablename, metricname, threshold_id, record_id, record_timestamp, lowerlimit, upperlimit
+
+now for each row in threshold alarms generate and execute query using the below definition
+
+UPDATE threshold_alarms ta
+SET alarm_status = 'CLEARED'
+WHERE alarm_status = 'ACTIVE' AND EXISTS (
+    SELECT 1
+    FROM {tablename} t
+    WHERE t.id = {record_id}
+      AND t.timestamp > {record_timestamp}
+      AND t.{udc_config_value} < {lowerlimit}
+      AND t.{udc_config_value} > {upperlimit}
+      AND t.udc_config_name = {metricname}
+);
+
+

@@ -1,0 +1,130 @@
+I have a threshold rules defined in a json file Threshold_definitions.json.
+
+{
+        "name": "ACPF.Daily.CpuUsageMax.percent",
+        "creation_time": 1727173986963,
+        "target_rule": "omni_rule",
+        "tag": "",
+        "user_groups": "",
+        "resource": [],
+        "evaluations": [
+            {
+                "burst_major_lower_limit": "0.0",
+                "burst_major_clear_time": 0,
+                "burst_major_upper_limit": "0.0",
+                "active_until": "No end date",
+                "period_critical_lower_limit": "80.0",
+                "period_critical_time": 10800,
+                "burst_critical_lower_limit": "0.0",
+                "period_granularity": 1,
+                "burst_warning_mode": 0,
+                "burst_minor_occurrence": 3,
+                "burst_critical_enabled": true,
+                "burst_critical_time": 0,
+                "period_critical_enabled": false,
+                "period_critical_mode": 0,
+                "burst_warning_clear_time": 0,
+                "period_warning_enabled": false,
+                "period_warning_upper_limit": "0.0",
+                "period_major_lower_limit": "0.0",
+                "burst_critical_upper_limit": "0.0",
+                "period_minor_time": 0,
+                "burst_warning_enabled": false,
+                "period_major_enabled": false,
+                "period_minor_mode": 0,
+                "burst_minor_clear_time": 0,
+                "burst_minor_lower_limit": "0.0",
+                "burst_warning_lower_limit": "0.0",
+                "burst_major_clear_occurrence": 0,
+                "burst_warning_upper_limit": "0.0",
+                "burst_critical_mode": 0,
+                "burst_minor_clear_occurrence": 0,
+                "burst_minor_upper_limit": "0.0",
+                "burst_warning_time": 0,
+                "burst_warning_occurrence": 0,
+                "burst_minor_mode": 0,
+                "period_major_mode": 0,
+                "period_generate_event": true,
+                "period_major_upper_limit": "0.0",
+                "burst_generate_event": true,
+                "burst_enabled": true,
+                "burst_critical_clear_time": 0,
+                "period_minor_lower_limit": "0.0",
+                "burst_critical_occurrence": 0,
+                "burst_warning_clear_occurrence": 0,
+                "schedule": "",
+                "burst_major_time": 0,
+                "period_critical_upper_limit": "0.0",
+                "schedule_desc": "Always",
+                "period_major_time": 0,
+                "period_warning_time": 0,
+                "burst_minor_enabled": false,
+                "baseline_enabled": false,
+                "burst_major_enabled": false,
+                "period_enabled": false,
+                "period_minor_enabled": false,
+                "burst_major_mode": 0,
+                "burst_reset_time": 0,
+                "period_warning_lower_limit": "0.0",
+                "burst_critical_clear_occurrence": 0,
+                "period_minor_upper_limit": "0.0",
+                "burst_minor_time": 0,
+                "burst_major_occurrence": 0,
+                "period_warning_mode": 0
+            }
+        ],
+        "threshold_group": [],
+        "metric": "ACPF.Daily.CpuUsageMax.percent",
+        "can_edit": true,
+        "owner": "icpadmin",
+        "update_time": 1727173986963
+    }
+
+Create a new table with ThresholdId(primary key), name, metric, mode, category, lowerlimit, upperlimit, occurrence, clearoccurrence, cleartime, time, activeuntil, periodgranularity, schedule, tag, user_groups, resource, threshold_group, target_rule, can_edit, owner, update_time
+
+The name of this threshold rule is "ACPF.Daily.CpuUsageMax.percent" and store in the name column of the newly created table
+The metric to be used for this rule is "ACPF.Daily.CpuUsageMax.percent" and store in the metric column of the newly created table
+
+There are four categories 
+1. critical
+2. major
+3. minor
+4. warning
+5. clear (not developed - tbd)
+
+There are two modes
+1. burst
+2. period - no development yet
+
+There are two limits
+1. upper limit <=
+2. lower limit >=
+
+Every evaluation is a rule based on one category, mode and limits.
+First identify the category, mode and limits.
+If any of the burst_*_enabled = true then it is burst mode
+If any of the period_*_enabled = true then it is period mode
+store the selected mode in the mode column
+
+If any of the *_critical_* = true then it is a critical category
+If any of the *_major_* = true then it is a major category
+If any of the *_minor_* = true then it is a minor category
+If any of the *_warning_* = true then it is a warning category
+store the selected category in the category column
+
+Take the concatenated value of the selected mode and selected category and "_lower_limit" as the key and get the value of it from json and store it in lowerlimit column
+Take the concatenated value of the selected mode and selected category and "_upper_limit" as the key and get the value of it from json and store it in upperlimit column
+Take the concatenated value of the selected mode and selected category and "_occurrence" as the key and get the value of it from json and store it in occurrence column
+store the value of "active_until" in the "activeuntil" column
+store the value of "period_granularity" in the "periodgranularity" column 
+store the value of "schedule" in the "schedule" column
+Take the concatenated value of the selected mode and selected category and "_clear_time" as the key and get the value of it from json and store it in cleartime column
+Take the concatenated value of the selected mode and selected category and "_time" as the key and get the value of it from json and store it in time column
+Take the concatenated value of the selected mode and selected category and "_clear_occurrence" as the key and get the value of it from json and store it in clearoccurrence column
+
+create one row per each evaluation in the evaluations flist in the json object
+if there are more than one category enabled, create another row for each category
+store tag, user_groups, resource, threshold_group, target_rule, can_edit, owner, update_time in the respective columns
+
+
+

@@ -1,0 +1,5 @@
+Market,Region,VCPType,Technology,Datacenter,Site,Id,Timestamp,Freq,'GNB.ENDCAddAtt','GNB.ENDCAddprepSucc','GNB.ENDCAddsucc','GNB.ENDCRelbySgnb.Delta','GNB.ENDCRelbySgnb','GNB.ENDCAddSuccRate'
+209,Illinois/Wisconsin,VCP Edge 1.x,NR,,,2090904,2025-10-07T08:00:00-05:00,3600,0,0,0,,0,NaN
+209,Illinois/Wisconsin,VCP Edge 1.x,NR,,,2090841,2025-10-07T08:00:00-05:00,3600,0,0,0,,0,NaN
+209,Illinois/Wisconsin,VCP Edge 1.x,NR,,,2090842,2025-10-07T08:00:00-05:00,3600,0,0,0,,0,NaN
+*,*,VCP Edge 1.x,NR,,,000000*,Total *,3600,0,0,0,,0,NaN

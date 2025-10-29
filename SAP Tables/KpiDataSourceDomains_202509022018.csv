@@ -1,0 +1,7 @@
+"KpiDataSourceDomainID","KpiDataSourceDomainName","CreatedDte","KpiDataSourceDomainType","created","updated"
+1,"4G Wireless",1631841332,Wireless,"2025-06-03 10:14:32","2025-06-03 10:14:32"
+2,"5G Core",1631841332,Wireless,"2025-06-03 10:14:32","2025-06-03 10:14:32"
+3,vRAN,1631841332,Wireless,"2025-06-03 10:14:32","2025-06-03 10:14:32"
+4,Wireline,1631841332,Wireline,"2025-06-03 10:14:32","2025-06-03 10:14:32"
+5,VCP Platform,1631841332,VCP Platform,"2025-06-03 10:14:32","2025-06-03 10:14:32"
+6,Platform,1631841332,Platform,"2025-06-03 10:14:32","2025-06-03 10:14:32"

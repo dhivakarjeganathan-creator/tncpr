@@ -1,0 +1,756 @@
+[
+    {
+        "condition": "resource.type=='DU' && resource.ranMarket.like('13*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.CTX",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1701104900307,
+        "status": "INACTIVE",
+        "updateTime": 1701105140311
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='MMW' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.CTX.MMW",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1701105665365,
+        "status": "ACTIVE",
+        "updateTime": 1701156351999
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB3' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.CTX.Sub3",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1701107338753,
+        "status": "ACTIVE",
+        "updateTime": 1701153207470
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB6' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.CTX.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1701106022634,
+        "status": "ACTIVE",
+        "updateTime": 1701156523761
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='MMW' && (resource.ranMarket=='056' || resource.ranMarket=='057' || resource.ranMarket=='058' || resource.ranMarket=='059' || resource.ranMarket=='060' || resource.ranMarket=='061' || resource.ranMarket=='062' || resource.ranMarket=='064' || resource.ranMarket=='065' || resource.ranMarket=='066' || resource.ranMarket=='068')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.NENG.MMW",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1743155482571,
+        "status": "ACTIVE",
+        "updateTime": 1743703083406
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB3' && (resource.ranMarket=='056' || resource.ranMarket=='057' || resource.ranMarket=='058' || resource.ranMarket=='059' || resource.ranMarket=='060' || resource.ranMarket=='061' || resource.ranMarket=='062' || resource.ranMarket=='064' || resource.ranMarket=='065' || resource.ranMarket=='066' || resource.ranMarket=='068')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.NENG.Sub3",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1743154852577,
+        "status": "ACTIVE",
+        "updateTime": 1743154852577
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB6' && (resource.ranMarket=='056' || resource.ranMarket=='057' || resource.ranMarket=='058' || resource.ranMarket=='059' || resource.ranMarket=='060' || resource.ranMarket=='061' || resource.ranMarket=='062' || resource.ranMarket=='064' || resource.ranMarket=='065' || resource.ranMarket=='066' || resource.ranMarket=='068')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.NENG.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1743155428250,
+        "status": "ACTIVE",
+        "updateTime": 1744277905255
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='MMW'",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.Samsung.Performance.MMW",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1681249292162,
+        "status": "ACTIVE",
+        "updateTime": 1697836259546
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB3'",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.Samsung.Performance.Sub3",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1681249614463,
+        "status": "ACTIVE",
+        "updateTime": 1697835536154
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB6'",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.Samsung.Performance.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1681250304627,
+        "status": "ACTIVE",
+        "updateTime": 1697833955154
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='MMW' && (resource.ranMarket=='070' || resource.ranMarket=='071' || resource.ranMarket=='072' || resource.ranMarket=='073' || resource.ranMarket=='074')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.UPNY.MMW",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1725384464955,
+        "status": "ACTIVE",
+        "updateTime": 1725990102468
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB3' && (resource.ranMarket=='070' || resource.ranMarket=='071' || resource.ranMarket=='072' || resource.ranMarket=='073' || resource.ranMarket=='074')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.UPNY.Sub3",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1725384549736,
+        "status": "ACTIVE",
+        "updateTime": 1725990102429
+    },
+    {
+        "condition": "resource.type=='DU' && resource.Band=='SUB6' && (resource.ranMarket=='070' || resource.ranMarket=='071' || resource.ranMarket=='072' || resource.ranMarket=='073' || resource.ranMarket=='074')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "DU.UPNY.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1725384598435,
+        "status": "ACTIVE",
+        "updateTime": 1725385233993
+    },
+    {
+        "condition": "resource.type=='ENB' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184' || resource.ranMarket=='187')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "ENB.CTX",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1744738478485,
+        "status": "ACTIVE",
+        "updateTime": 1744779216128
+    },
+    {
+        "condition": "resource.type=='ENB' && (resource.ranMarket=='056' || resource.ranMarket=='057' || resource.ranMarket=='058' || resource.ranMarket=='059' || resource.ranMarket=='060' || resource.ranMarket=='061' || resource.ranMarket=='062' || resource.ranMarket=='064' || resource.ranMarket=='065' || resource.ranMarket=='066' || resource.ranMarket=='068')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "ENB.NENG",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1745894454557,
+        "status": "ACTIVE",
+        "updateTime": 1745949302584
+    },
+    {
+        "condition": "resource.type=='ENB' && (resource.id.like('^070*')  || resource.id.like('^071*') || resource.id.like('^072*') || resource.id.like('^073*') || resource.id.like('^074*'))",
+        "description": "",
+        "groupBy": "",
+        "groupName": "ENB.UPNY",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1726758613104,
+        "status": "ACTIVE",
+        "updateTime": 1740047655334
+    },
+    {
+        "condition": "resource.type=='GNB' && resource.Band.like('MMW')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Ericsson.GNB.MMW",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1679570173035,
+        "status": "ACTIVE",
+        "updateTime": 1740033119509
+    },
+    {
+        "condition": "resource.type=='GNB' && resource.Band.like('SUB3')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Ericsson.GNB.Sub3",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1679570981886,
+        "status": "ACTIVE",
+        "updateTime": 1716384220120
+    },
+    {
+        "condition": "resource.type=='GNB' && resource.Band.like('SUB6')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Ericsson.GNB.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1679571226612,
+        "status": "ACTIVE",
+        "updateTime": 1716384476406
+    },
+    {
+        "condition": "resource.type=='ThermalTemperatures' && resource.id.like('*01-Inlet*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "HP.ambient_temperatures",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1715183278185,
+        "status": "ACTIVE",
+        "updateTime": 1715183439243
+    },
+    {
+        "condition": "resource.type=='Monitoring5GPT' && resource.Band=='DUMMY_BAND'",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Monitoring5GPT.Band",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1742458170455,
+        "status": "ACTIVE",
+        "updateTime": 1742458168556
+    },
+    {
+        "condition": "",
+        "description": "Oracle IPFE RDRA",
+        "groupBy": "",
+        "groupName": "RDRA_DIP_Group",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DIP01SG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DIP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DIP00SG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DIP00SG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DIP00SG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DIP01SG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DIP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DIP01SG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DIP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DIP00SG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DIP01SG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DIP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DIP00SG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DIP00SG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DIP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DIP01SG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DIP01",
+                "tenant": "base",
+                "type": "Server"
+            }
+        ],
+        "startTime": 1659980406695,
+        "status": "ACTIVE",
+        "updateTime": 1715663960358
+    },
+    {
+        "condition": "",
+        "description": "Oracle RDRA DAMP",
+        "groupBy": "",
+        "groupName": "RDRA_DMP_Group",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_TWBGOHESvRDRA_L_OR_ROA_DMP03",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DMP02",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_ROA_DMP01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-ROA-DMPSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_ROA_DMP00",
+                "tenant": "base",
+                "type": "Server"
+            }
+        ],
+        "startTime": 1659980848235,
+        "status": "ACTIVE",
+        "updateTime": 1715664164824
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "RDRA_DSO_Group",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DSO01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DSO00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "CLSPCOYKvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_CLSPCOYKvRDRA_L_OR_RO2_DSO00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "TWBGOHAAvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_TWBGOHAAvRDRA_L_OR_RO2_DSO01",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DSO00",
+                "tenant": "base",
+                "type": "Server"
+            },
+            {
+                "id": "SOLKTXESvRDRA-L-OR-RO2-DSOSG::OAM_SYSTEM_SOLKTXESvRDRA_L_OR_RO2_DSO01",
+                "tenant": "base",
+                "type": "Server"
+            }
+        ],
+        "startTime": 1656695877643,
+        "status": "ACTIVE",
+        "updateTime": 1715876269437
+    },
+    {
+        "condition": "resource.type=='ThermalTemperatures' && (resource.id.like('*02-CPU*') || resource.id.like('*CPU_0_TEMP*'))",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Redfish.HPE.CPU",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1731322042270,
+        "status": "ACTIVE",
+        "updateTime": 1731499293613
+    },
+    {
+        "condition": "resource.type=='Device' && resource.id.like('*-rh-pe092*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Redfish.HPe.Devices",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1675857827426,
+        "status": "ACTIVE",
+        "updateTime": 1675857850138
+    },
+    {
+        "condition": "resource.type=='ThermalFans' && resource.id.like('*-rh-pe092*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Redfish.HPe.Thermalfans.PE092",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1667584441819,
+        "status": "ACTIVE",
+        "updateTime": 1667584441624
+    },
+    {
+        "condition": "resource.type=='ThermalTemperatures' && resource.id.like('*01-Inlet*|*MLB_INLET_TEMP*|*INLET_TEMP_L*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "Redfish.Inlet.Ambient",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1698766146827,
+        "status": "ACTIVE",
+        "updateTime": 1721255320681
+    },
+    {
+        "condition": "resource.type=='sector'  && resource.Band=='SUB6' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "sector.CTX",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1714503279445,
+        "status": "ACTIVE",
+        "updateTime": 1714754795555
+    },
+    {
+        "condition": "resource.type=='sector' && resource.Band=='SUB6' && (resource.ranMarket=='131' || resource.ranMarket=='132' || resource.ranMarket=='133' || resource.ranMarket=='134' || resource.ranMarket=='135' || resource.ranMarket=='136' || resource.ranMarket=='137' || resource.ranMarket=='138' || resource.ranMarket=='139' || resource.ranMarket=='140' || resource.ranMarket=='184')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "sector.CTX.Sub6",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1714508660311,
+        "status": "ACTIVATION_FAILED",
+        "updateTime": 1716240981273
+    },
+    {
+        "condition": "resource.type=='AUPF' && resource.id.like('*UIC*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "UIC_VMs",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1675166259051,
+        "status": "ACTIVE",
+        "updateTime": 1675166258660
+    },
+    {
+        "condition": "resource.type=='AUPF' && resource.id.like('*UMC*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "UMC_VMs",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1675166544307,
+        "status": "ACTIVE",
+        "updateTime": 1675166544024
+    },
+    {
+        "condition": "resource.type=='AUPF' && resource.id.like('*UPC*')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "UPC_VMs",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1675166574131,
+        "status": "ACTIVE",
+        "updateTime": 1675166573826
+    },
+    {
+        "condition": "resource.type=='ThermalTemperatures' && resource.id.like('*-rh-pe092*01-Inlet_Ambient')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VCPe_HPe_Ambient_Temperature",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1675146374488,
+        "status": "ACTIVE",
+        "updateTime": 1676374199370
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-1-NJBB",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-1 NJBB",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447814993,
+        "status": "ACTIVE",
+        "updateTime": 1708447812428
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-1-TXSL",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-1 TXSL",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447765422,
+        "status": "ACTIVE",
+        "updateTime": 1708447762496
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-2-NJBB2",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-2 NJBB2",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447443831,
+        "status": "ACTIVE",
+        "updateTime": 1708447441263
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-2-NJWA",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-2 NJWA",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447712072,
+        "status": "ACTIVE",
+        "updateTime": 1708447709425
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-3-COCS",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-3 COCS",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447663671,
+        "status": "ACTIVE",
+        "updateTime": 1708447660972
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-4-COCS",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-4 COCS",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447493216,
+        "status": "ACTIVE",
+        "updateTime": 1708447490543
+    },
+    {
+        "condition": "",
+        "description": "",
+        "groupBy": "",
+        "groupName": "VoLTE-4-NJBB3",
+        "groupType": "static",
+        "relation": "groupOf",
+        "resources": [
+            {
+                "id": "VoLTE-4 NJBB3",
+                "tenant": "base",
+                "type": "Region"
+            }
+        ],
+        "startTime": 1708447543342,
+        "status": "ACTIVE",
+        "updateTime": 1708447540919
+    },
+    {
+        "condition": "resource.type=='ThermalTemperatures' && resource.id.like('*INLET_TEMP_L|*MLB_INLET_TEMP')",
+        "description": "",
+        "groupBy": "",
+        "groupName": "ZT.ambient_temperatures",
+        "groupType": "dynamic",
+        "relation": "groupOf",
+        "resources": "",
+        "startTime": 1715183404289,
+        "status": "ACTIVE",
+        "updateTime": 1717595645589
+    }
+]

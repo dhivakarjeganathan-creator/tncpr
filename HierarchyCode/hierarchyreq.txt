@@ -1,0 +1,25 @@
+I need to build a hierarchy
+
+Region - Region is the highest entity
+Market - A region can have one or more markets
+GNB - A market will have one or more GNBs 
+DU - A GNB will have one or more DUs
+Sector - A DU will have one or more Sectors or A GNB can be directly linked to one or more sectors
+Carrier - A Sector will have one or more Carriers
+
+I want a build a CRUD operation to create, retrieve, update or delete a region, market, GNB, DU, Sector and Carrier
+All these CRUD will be stored in a PostgreSQL table.
+
+Can you create the tables, and the code required to manage these tables.
+
+Data for these tables will be coming from csv files.
+The program should be able to read the from a specific folder.
+Each CSV file will be in different formats.
+The column name in the csv for a Region will be “Region” or “REGION”
+The column name in the csv for a Market will be “Market” or “MARKET”
+The column name in the csv for a GNB will be “GNB” or “GNB”
+The column name in the csv for a DU will be du” or “DU”
+The column name in the csv for a Sector will be “Sector” or “SECTOR”
+The column name in the csv for a Carrier will be “Carrier” or “MARKET”
+
+I also need an auditlog table that will identify the csv files that are processed and how many new regions, Market, GNB, DU, Sector or Carrier were added to the PostgreSQL tables based on each csv file. No file should be processed twice.
