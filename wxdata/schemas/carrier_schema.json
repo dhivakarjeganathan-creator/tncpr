@@ -1,0 +1,39 @@
+{
+  "format": "carrier",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "timestamp",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "name": "carrier_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "signal_strength",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "data_usage_mb",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
+
+
+
+

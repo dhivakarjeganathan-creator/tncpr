@@ -1,0 +1,61 @@
+# Watsonx.data CSV to Iceberg Pipeline Configuration
+
+# MinIO/S3 Configuration
+minio:
+  endpoint: "localhost:9000"
+  access_key: "minioadmin"
+  secret_key: "minioadmin"
+  secure: false  # Set to true for HTTPS
+  bucket_name: "samsung-data"
+  landing_prefix: "landing/Samsung"
+  processed_prefix: "processed/Samsung"
+
+# Watsonx.data Configuration
+watsonx:
+  catalog_name: "hive_metastore"
+  database_name: "samsung_db"
+  warehouse_path: "s3://samsung-data/warehouse"
+  
+# Spark Configuration
+spark:
+  app_name: "Samsung CSV to Iceberg Pipeline"
+  master: "local[*]"  # Change to your Spark cluster URL
+  config:
+    spark.sql.extensions: "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions"
+    spark.sql.catalog.hive_metastore: "org.apache.iceberg.spark.SparkCatalog"
+    spark.sql.catalog.hive_metastore.type: "hive"
+    spark.sql.catalog.hive_metastore.uri: "thrift://localhost:9083"
+    spark.sql.catalog.hive_metastore.warehouse: "s3://samsung-data/warehouse"
+    spark.hadoop.fs.s3a.endpoint: "http://localhost:9000"
+    spark.hadoop.fs.s3a.access.key: "minioadmin"
+    spark.hadoop.fs.s3a.secret.key: "minioadmin"
+    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+
+# Table Configuration
+tables:
+  carrier:
+    table_name: "carrier_data"
+    schema_path: "schemas/carrier_schema.json"
+    partition_columns: []  # Add partition columns if needed, e.g., ["year", "month"]
+  
+  du:
+    table_name: "du_data"
+    schema_path: "schemas/du_schema.json"
+    partition_columns: []
+
+# Processing Configuration
+processing:
+  check_interval_seconds: 60  # How often to check for new files
+  batch_size: 100  # Number of files to process in one batch
+  max_workers: 10  # Number of parallel workers for file processing (adjust based on system resources)
+  enable_compaction: true
+  compaction_threshold: 10  # Number of files before triggering compaction
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "logs/pipeline.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+

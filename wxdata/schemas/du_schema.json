@@ -1,0 +1,39 @@
+{
+  "format": "du",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "timestamp",
+      "type": "timestamp",
+      "nullable": false
+    },
+    {
+      "name": "device_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "du_value",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "metadata",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
+
+
+
+

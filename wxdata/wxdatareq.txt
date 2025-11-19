@@ -1,0 +1,29 @@
+I have a new requirement.
+
+Automatically land your CSV files in watsonx.data, apply schema management for the 2 formats, and make all files queryable using SQL.
+High-Level Architecture - Incoming CSV files → Object Storage (S3 MinIO) → watsonx.data → Iceberg table(s) → SQL queries
+
+Step 1 - The CSV folder structure
+/landing/Samsung/carrier/*.csv
+/landing/Samsung/du/*.csv
+
+Step 2 - Land the CSVs into Object Storage - S3-compatible storage (MinIO)
+
+Step 3 - Register Each Data Format as an Iceberg Table
+
+Step 4 - Load CSVs into the Iceberg Tables
+ETL via Spark (recommended for automation) using watsonx.data + Spark on Databand
+Run this as a scheduled job.
+
+Step 5 - Automate Everything
+1. Detect new files in MinIO
+2. Identify format type (2 schemas)
+3. Run correct ingestion pipeline
+4. Append to Iceberg table
+5. Move processed CSV to /processed/
+6. Run Iceberg metadata compaction (optional)
+
+can you help with the architecture, develop this in python, keep the code modular so that it is maintainable
+create a separate config file with all configuration.
+
+I want to load files parallelly. There is a possibility of getting 2500 files every hour.

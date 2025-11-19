@@ -144,20 +144,23 @@ class AnalyticsETL:
             # Map table names to actual database table names (lowercase)
             table_name_mapping = {
                 'MKT_Samsung': 'mkt_samsung',
-                'GNB_Samsung': 'gnb_samsung', 
                 'DU_Samsung': 'du_samsung',
                 'SECTOR_Samsung': 'sector_samsung',
                 'CARRIER_Samsung': 'carrier_samsung',
                 'MKT_Corning': 'mkt_corning',
-                'GNB_Corning': 'gnb_corning',
+                'GNB_Corning': 'gnb_corning',                
+                'DU_Corning': 'du_corning',
                 'SECTOR_Corning': 'sector_corning',
                 'CARRIER_Corning': 'carrier_corning',
                 'MKT_Ericsson': 'mkt_ericsson',
                 'GNB_Ericsson': 'gnb_ericsson',
                 'SECTOR_Ericsson': 'sector_ericsson',
                 'CARRIER_Ericsson': 'carrier_ericsson',
-                'ACPF_Samsung': 'acpf_samsung',
-                'AUPF_Samsung': 'aupf_samsung'
+                'ACPF_GNB_Samsung': 'acpf_gnb_samsung',  
+                'ACPF_VCU_Samsung': 'acpf_vcu_samsung',  
+                'AUPF_GNB_Samsung': 'aupf_gnb_samsung',  
+                'AUPF_VCU_Samsung': 'aupf_vcu_samsung',  
+                'AUPF_VM_Samsung': 'aupf_vm_samsung',  
             }
             
             load_results = {}

@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  wxdata-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wxdata-pipeline:latest
+    container_name: wxdata-pipeline
+    volumes:
+      # Mount config file
+      - ./config.yaml:/app/config.yaml:ro
+      # Mount logs directory
+      - ./logs:/app/logs
+      # Mount schemas directory
+      - ./schemas:/app/schemas:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Uncomment and modify if you need to connect to external services
+    # networks:
+    #   - wxdata-network
+    # depends_on:
+    #   - minio
+    #   - hive-metastore
+    command: ["python", "main.py", "--mode", "once"]
+    restart: unless-stopped
+
+  # Optional: Uncomment to run MinIO locally
+  # minio:
+  #   image: minio/minio:latest
+  #   container_name: minio
+  #   ports:
+  #     - "9000:9000"
+  #     - "9001:9001"
+  #   environment:
+  #     MINIO_ROOT_USER: minioadmin
+  #     MINIO_ROOT_PASSWORD: minioadmin
+  #   volumes:
+  #     - minio-data:/data
+  #   command: server /data --console-address ":9001"
+  #   networks:
+  #     - wxdata-network
+
+# networks:
+#   wxdata-network:
+#     driver: bridge
+
+# volumes:
+#   minio-data:
+
