@@ -1,0 +1,774 @@
+
+(venv) C:\Users\DhivakarJeganathan\Desktop\Work\Quick\Cursor\TNCP R\API>python main.py
+INFO:     Started server process [11552]
+INFO:     Waiting for application startup.
+2025-12-06 23:33:36,131 - main - INFO - Starting KPI Timeseries API
+2025-12-06 23:33:36,131 - main - INFO - Database type: postgresql
+2025-12-06 23:33:36,131 - main - INFO - Database: localhost:5432/hierarchy_db
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52696 - "GET /api/v1/health HTTP/1.1" 200 OK
+2025-12-06 23:33:43,989 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:52698 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:46,099 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:52700 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:48,190 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:52702 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:50,251 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:52704 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:52,309 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:52707 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:54,367 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:52709 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:56,427 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:52711 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:33:58,505 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:52716 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:00,608 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:52719 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:02,695 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:52722 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:04,808 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:52724 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:06,920 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:52731 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:09,024 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:52733 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:11,111 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:52735 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:13,225 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:52737 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:15,325 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:52740 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:17,390 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:52742 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:19,478 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:52744 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:21,565 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:52747 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:23,677 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:52749 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:25,747 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:52751 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:27,800 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:52753 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:29,860 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:52755 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:31,930 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:52757 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:33,987 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:52759 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:36,062 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:52762 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:38,148 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:52765 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:40,220 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:52767 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:42,297 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:52769 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:44,368 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:52771 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:46,427 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:52773 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:48,501 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:52776 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:50,610 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:52779 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:52,665 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:52781 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:54,741 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:52783 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:56,787 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:52785 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:34:58,841 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:52788 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:00,905 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:52792 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:02,990 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:52795 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:05,059 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:52797 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:07,141 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:52799 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:09,231 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:52801 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:11,317 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:52803 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:13,418 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:52805 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:15,496 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:52807 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:17,582 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:52809 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:19,641 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:52811 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:21,740 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:52814 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:23,833 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:52816 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:25,878 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:52818 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:27,959 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:52820 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:30,056 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:52822 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:32,136 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:52824 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:34,210 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:52826 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&searchByProperties=resource.id%3D%3D143&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:36,315 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:52828 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:38,393 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:52830 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:40,461 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:52832 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:42,548 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:52835 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:44,621 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:52838 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:46,707 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:52840 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:48,789 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:52842 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:50,896 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:52844 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:52,953 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:52846 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:55,028 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:52848 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:57,090 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:52850 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:35:59,135 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:60351 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:01,215 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:60353 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:03,295 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:60356 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:05,387 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:60358 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:07,459 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:60360 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:09,531 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:60362 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:11,601 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:60364 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&searchByProperties=resource.id%3D%3D143%2C144&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:13,693 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:60366 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:15,791 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:60369 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:17,889 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:60376 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:19,990 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:60379 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:22,065 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:60381 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:24,148 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:60384 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:26,215 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:60387 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:28,299 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:60389 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:30,389 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:60391 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:32,475 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:60393 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:34,547 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:60395 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:36,655 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:60397 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:38,745 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:60399 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:40,817 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+2025-12-06 23:36:40,825 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:36:40,825 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_endcaddatt") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endcaddatt") AS NUMERIC) ELSE NULL END) AS "gnb_endcaddatt"
+            FROM "acpf_gnb_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:36:40,825 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:60402 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:36:42,889 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:60405 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:44,935 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:60408 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:47,014 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+2025-12-06 23:36:47,014 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:36:47,014 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf_cpuusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupf_cpuusageavg_percent") AS NUMERIC) ELSE NULL END) AS "aupf_cpuusageavg_percent"
+            FROM "aupf_vcu_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:36:47,014 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:60410 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:36:49,060 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+2025-12-06 23:36:49,062 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:36:49,062 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupfvminterface_inoctets_vm_aupf") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupfvminterface_inoctets_vm_aupf") AS NUMERIC) ELSE NULL END) AS "aupfvminterface_inoctets_vm_aupf"
+            FROM "aupf_vm_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:36:49,062 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:60414 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&requestgranularity=1-hour&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:36:51,125 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:60417 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:53,180 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:60419 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:55,224 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:60421 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:57,303 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:60424 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:36:59,370 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:60434 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:01,433 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:60438 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:03,522 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:60442 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:05,596 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:60445 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:07,644 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:60448 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:09,710 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:60450 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:11,785 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:60452 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:13,851 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:60454 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:15,910 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:60456 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:18,000 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:60458 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:20,061 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:60461 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:22,128 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:60463 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:24,177 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:60465 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:26,238 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:60467 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&properties=market%2Cid&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:28,288 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:60469 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:30,366 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:60471 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:32,406 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:60473 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:34,475 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:60475 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:36,522 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:60477 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:38,554 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:60479 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:40,613 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:60481 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:42,634 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:60483 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:44,689 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:60486 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:46,751 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:60489 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:48,816 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:60492 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:50,863 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:60494 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:52,905 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:60498 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:54,962 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:60500 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:57,024 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:60503 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:37:59,092 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:60506 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:01,146 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:60508 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:03,235 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:60511 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:05,301 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:60513 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct%2Cranmarket_5gnr_dl_mac_volume_mb&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:07,382 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:60515 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa%2Cranmarket_s5nc_drbsetupfail_pct_sa&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:09,456 - api.routes - INFO - Executing query for gnb_corning timeseries
+2025-12-06 23:38:09,456 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ... AS "gnb_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:09,456 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("gnb_dl_gtp_data_volume_rn_mb") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_dl_gtp_data_volume_rn_mb") AS NUMERIC) ELSE NULL END) AS "gnb_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("gnb_endc_sessions_rn") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endc_sessions_rn") AS NUMERIC) ELSE NULL END) AS "gnb_endc_sessions_rn"
+            FROM "gnb_corning"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:09,456 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ... AS "gnb_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:60517 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb%2Cgnb_endc_sessions_rn&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:11,528 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:59131 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct%2Cgnb_5gnr_dl_mac_volume_mb&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:13,598 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:59134 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb%2Cgnb_s5nr_totalerabsetupfailurerate_percent&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:15,695 - api.routes - INFO - Executing query for sector_corning timeseries
+2025-12-06 23:38:15,695 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ... "sector_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("sect...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:15,695 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("sector_dl_gtp_data_volume_rn_mb") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("sector_dl_gtp_data_volume_rn_mb") AS NUMERIC) ELSE NULL END) AS "sector_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("sector_endc_sessions_rn") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("sector_endc_sessions_rn") AS NUMERIC) ELSE NULL END) AS "sector_endc_sessions_rn"
+            FROM "sector_corning"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:15,695 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ... "sector_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("sect...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:59136 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb%2Csector_endc_sessions_rn&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:17,776 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:59138 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct%2Csector_5gnr_dl_mac_volume_mb&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:19,834 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:59141 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb%2Csector_s5nr_totalerabsetupfailurerate_percent&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:21,897 - api.routes - INFO - Executing query for carrier_corning timeseries
+2025-12-06 23:38:21,899 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...gcarrier_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("corn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:21,899 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("corningcarrier_dl_gtp_data_volume_rn_mb") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("corningcarrier_dl_gtp_data_volume_rn_mb") AS NUMERIC) ELSE NULL END) AS "corningcarrier_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("corningcarrier_cor_nsa_cell_availability") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("corningcarrier_cor_nsa_cell_availability") AS NUMERIC) ELSE NULL END) AS "corningcarrier_cor_nsa_cell_availability"
+            FROM "carrier_corning"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:21,899 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...gcarrier_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("corn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:59143 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb%2Ccorningcarrier_cor_nsa_cell_availability&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:23,966 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:59145 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct%2Cericsson5gcarrier_5gnr_cell_availability_pct&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:26,034 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:59147 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa%2Ccarrier5g_s5nc_drbsetupfail_pct_sa&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:28,118 - api.routes - INFO - Executing query for du_corning timeseries
+2025-12-06 23:38:28,118 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...) AS "du_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("du_e...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:28,118 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("du_dl_gtp_data_volume_rn_mb") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("du_dl_gtp_data_volume_rn_mb") AS NUMERIC) ELSE NULL END) AS "du_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("du_endc_sessions_rn") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("du_endc_sessions_rn") AS NUMERIC) ELSE NULL END) AS "du_endc_sessions_rn"
+            FROM "du_corning"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:28,118 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...) AS "du_dl_gtp_data_volume_rn_mb", AVG(CASE WHEN TRIM("du_e...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64569 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb%2Cdu_endc_sessions_rn&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:30,177 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:64571 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb%2Cdu_s5nr_totalerabsetupfailurerate_percent&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:32,256 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+2025-12-06 23:38:32,256 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:32,256 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("gnb_endcaddatt") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endcaddatt") AS NUMERIC) ELSE NULL END) AS "gnb_endcaddatt", AVG(CASE WHEN TRIM("gnb_endcaddsucc") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endcaddsucc") AS NUMERIC) ELSE NULL END) AS "gnb_endcaddsucc"
+            FROM "acpf_gnb_samsung"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:32,256 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64573 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt%2Cgnb_endcaddsucc&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:34,314 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+2025-12-06 23:38:34,314 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...END) AS "acpf_cpuusageavg_percent", AVG(CASE WHEN TRIM("acpf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:34,314 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("acpf_cpuusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("acpf_cpuusageavg_percent") AS NUMERIC) ELSE NULL END) AS "acpf_cpuusageavg_percent", AVG(CASE WHEN TRIM("acpf_memusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("acpf_memusageavg_percent") AS NUMERIC) ELSE NULL END) AS "acpf_memusageavg_percent"
+            FROM "acpf_vcu_samsung"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:34,314 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...END) AS "acpf_cpuusageavg_percent", AVG(CASE WHEN TRIM("acpf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64575 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent%2Cacpf_memusageavg_percent&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:36,397 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:64578 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct%2Cgnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:38,469 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+2025-12-06 23:38:38,476 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:38,477 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupf_cpuusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupf_cpuusageavg_percent") AS NUMERIC) ELSE NULL END) AS "aupf_cpuusageavg_percent", AVG(CASE WHEN TRIM("aupf_memusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupf_memusageavg_percent") AS NUMERIC) ELSE NULL END) AS "aupf_memusageavg_percent"
+            FROM "aupf_vcu_samsung"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:38,477 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64580 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent%2Caupf_memusageavg_percent&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:40,579 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+2025-12-06 23:38:40,579 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:38:40,579 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupfvminterface_inoctets_vm_aupf") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupfvminterface_inoctets_vm_aupf") AS NUMERIC) ELSE NULL END) AS "aupfvminterface_inoctets_vm_aupf", AVG(CASE WHEN TRIM("aupfvminterface_outoctets_vm_aupf") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupfvminterface_outoctets_vm_aupf") AS NUMERIC) ELSE NULL END) AS "aupfvminterface_outoctets_vm_aupf"
+            FROM "aupf_vm_samsung"
+            WHERE "id" = %s AND "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('hour', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:38:40,584 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...mestamp", "market", "region", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64582 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf%2Caupfvminterface_outoctets_vm_aupf&start=1749992400000&end=1750057199000&searchByProperties=resource.id%3D%3D143&properties=market%2Cregion%2Cid&requestgranularity=1-hour&orderBy=time%2B&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:38:42,676 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:64584 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct%2Cranmarket_5gnr_dl_mac_volume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:44,734 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:64586 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa%2Cranmarket_s5nc_drbsetupfail_pct_sa&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:46,800 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:50582 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb%2Cgnb_endc_sessions_rn&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:48,864 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:50584 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct%2Cgnb_5gnr_dl_mac_volume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:50,900 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:50587 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb%2Cgnb_s5nr_totalerabsetupfailurerate_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:52,964 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:50589 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb%2Csector_endc_sessions_rn&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:55,031 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:50591 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct%2Csector_5gnr_dl_mac_volume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:57,064 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:54654 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb%2Csector_s5nr_totalerabsetupfailurerate_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:38:59,098 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:54658 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb%2Ccorningcarrier_cor_nsa_cell_availability&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:01,151 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:54660 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct%2Cericsson5gcarrier_5gnr_cell_availability_pct&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:03,195 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:54663 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa%2Ccarrier5g_s5nc_drbsetupfail_pct_sa&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:05,263 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:50738 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb%2Cdu_endc_sessions_rn&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:07,296 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:50742 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb%2Cdu_s5nr_totalerabsetupfailurerate_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:09,395 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:50744 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt%2Cgnb_endcaddsucc&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:11,447 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:50746 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent%2Cacpf_memusageavg_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:13,535 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:50748 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct%2Cgnb_s5nr_dlmaclayerdatavolume_mb&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:15,595 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:50750 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent%2Caupf_memusageavg_percent&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:17,680 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:50752 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf%2Caupfvminterface_outoctets_vm_aupf&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:19,727 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:61471 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:21,794 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:57504 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:23,864 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:57506 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:25,924 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:57508 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:27,994 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:57510 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:30,034 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:57512 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:32,110 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:53803 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:34,181 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:54467 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:36,256 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:54469 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:38,283 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:54471 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:40,326 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:54473 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:42,408 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:51813 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:44,474 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:51815 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:46,548 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:51817 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:48,625 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:51819 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:50,694 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:51821 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:52,789 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:51068 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:54,884 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:63100 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&searchByProperties=resource.market%3D%3DUS&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:56,935 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:50262 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:39:58,988 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:50264 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:01,039 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:58455 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:03,089 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:55087 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:05,122 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:55089 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:07,192 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:60221 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:09,249 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:60223 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:11,306 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:60225 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:13,375 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:60227 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:15,440 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:60229 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:17,487 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:58244 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:19,536 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:56083 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:21,603 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:64434 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:23,647 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+2025-12-06 23:40:23,647 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:40:23,649 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_endcaddatt") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endcaddatt") AS NUMERIC) ELSE NULL END) AS "gnb_endcaddatt"
+            FROM "acpf_gnb_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:40:23,649 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64436 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:40:25,731 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:64439 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:27,812 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:64441 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:29,891 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+2025-12-06 23:40:29,896 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:40:29,897 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf_cpuusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupf_cpuusageavg_percent") AS NUMERIC) ELSE NULL END) AS "aupf_cpuusageavg_percent"
+            FROM "aupf_vcu_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:40:29,897 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64443 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:40:31,967 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+2025-12-06 23:40:31,968 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:40:31,968 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupfvminterface_inoctets_vm_aupf") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupfvminterface_inoctets_vm_aupf") AS NUMERIC) ELSE NULL END) AS "aupfvminterface_inoctets_vm_aupf"
+            FROM "aupf_vm_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('minute', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:40:31,970 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:64445 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&requestgranularity=30-minute&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:40:34,009 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:64447 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:36,070 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:64449 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:38,147 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:64451 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:40,181 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:64453 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:42,220 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:64455 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:44,304 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:64458 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:46,357 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:64460 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:48,416 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:64462 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:50,465 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:64464 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:52,522 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:64466 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:54,616 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:64470 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:56,712 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:64473 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:40:58,748 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:53704 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:00,814 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+2025-12-06 23:41:00,816 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:41:00,816 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_endcaddatt") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("gnb_endcaddatt") AS NUMERIC) ELSE NULL END) AS "gnb_endcaddatt"
+            FROM "acpf_gnb_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:41:00,817 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("gnb_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:61639 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:41:02,864 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:61641 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:04,907 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:59596 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:06,974 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+2025-12-06 23:41:06,974 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:41:06,974 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf_cpuusageavg_percent") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupf_cpuusageavg_percent") AS NUMERIC) ELSE NULL END) AS "aupf_cpuusageavg_percent"
+            FROM "aupf_vcu_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:41:06,974 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:59598 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:41:09,034 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+2025-12-06 23:41:09,038 - database.connection - ERROR - Error executing query: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-12-06 23:41:09,043 - database.connection - ERROR - Query: SELECT CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text AS "timestamp", "market", "region", "vcptype", "technology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupfvminterface_inoctets_vm_aupf") ~ '^-?[0-9]+(\.[0-9]+)?$' THEN CAST(TRIM("aupfvminterface_inoctets_vm_aupf") AS NUMERIC) ELSE NULL END) AS "aupfvminterface_inoctets_vm_aupf"
+            FROM "aupf_vm_samsung"
+            WHERE "timestamp" >= '1749992400000' AND "timestamp" <= '1750057199000'
+            GROUP BY CAST(EXTRACT(EPOCH FROM DATE_TRUNC('day', TO_TIMESTAMP("timestamp"::bigint / 1000.0))) * 1000 AS BIGINT)::text, "market", "region", "vcptype", "technology", "datacenter", "site", "id"
+            ORDER BY "timestamp" ASC
+2025-12-06 23:41:09,044 - api.routes - ERROR - Database query failed: function pg_catalog.btrim(bigint) does not exist
+LINE 1: ...ology", "datacenter", "site", "id", AVG(CASE WHEN TRIM("aupf...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+INFO:     127.0.0.1:63470 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&requestgranularity=1-day&debug=true HTTP/1.1" 500 Internal Server Error
+2025-12-06 23:41:11,089 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:51916 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:13,138 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:51919 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:15,205 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:51922 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:17,248 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:51925 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:19,314 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:51927 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:21,352 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:58288 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:23,397 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:58290 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:25,415 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:58292 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:27,482 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:58294 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:29,546 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:58296 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:31,627 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:60660 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:33,679 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:60662 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:35,749 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:60664 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:37,820 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:60667 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:39,898 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:56053 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:41,959 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:56055 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:43,994 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:56057 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:46,035 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:56059 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&start=1749992400000&end=1750057199000&orderBy=time-&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:48,092 - api.routes - INFO - Executing query for mkt_ericsson timeseries
+INFO:     127.0.0.1:56063 - "GET /api/v1/timeseries?table=mkt_ericsson&metrics=ranmarket_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:50,168 - api.routes - INFO - Executing query for mkt_samsung timeseries
+INFO:     127.0.0.1:56065 - "GET /api/v1/timeseries?table=mkt_samsung&metrics=ranmarket_s5nc_drbdrop_pct_sa&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:52,226 - api.routes - INFO - Executing query for gnb_corning timeseries
+INFO:     127.0.0.1:56067 - "GET /api/v1/timeseries?table=gnb_corning&metrics=gnb_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:54,324 - api.routes - INFO - Executing query for gnb_ericsson timeseries
+INFO:     127.0.0.1:56069 - "GET /api/v1/timeseries?table=gnb_ericsson&metrics=gnb_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:56,363 - api.routes - INFO - Executing query for gnb_samsung timeseries
+INFO:     127.0.0.1:49676 - "GET /api/v1/timeseries?table=gnb_samsung&metrics=gnb_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:41:58,408 - api.routes - INFO - Executing query for sector_corning timeseries
+INFO:     127.0.0.1:49783 - "GET /api/v1/timeseries?table=sector_corning&metrics=sector_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:00,424 - api.routes - INFO - Executing query for sector_ericsson timeseries
+INFO:     127.0.0.1:49791 - "GET /api/v1/timeseries?table=sector_ericsson&metrics=sector_5gnr_endc_setup_failure_pct&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:02,498 - api.routes - INFO - Executing query for sector_samsung timeseries
+INFO:     127.0.0.1:49794 - "GET /api/v1/timeseries?table=sector_samsung&metrics=sector_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:04,583 - api.routes - INFO - Executing query for carrier_corning timeseries
+INFO:     127.0.0.1:49796 - "GET /api/v1/timeseries?table=carrier_corning&metrics=corningcarrier_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:06,658 - api.routes - INFO - Executing query for carrier_ericsson timeseries
+INFO:     127.0.0.1:56013 - "GET /api/v1/timeseries?table=carrier_ericsson&metrics=ericsson5gcarrier_5gnr_endc_drop_pct&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:08,711 - api.routes - INFO - Executing query for carrier_samsung timeseries
+INFO:     127.0.0.1:56015 - "GET /api/v1/timeseries?table=carrier_samsung&metrics=carrier5g_s5nc_drbdrop_pct_sa&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:10,768 - api.routes - INFO - Executing query for du_corning timeseries
+INFO:     127.0.0.1:56017 - "GET /api/v1/timeseries?table=du_corning&metrics=du_dl_gtp_data_volume_rn_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:12,805 - api.routes - INFO - Executing query for du_samsung timeseries
+INFO:     127.0.0.1:56020 - "GET /api/v1/timeseries?table=du_samsung&metrics=du_s5nr_dlmaclayerdatavolume_mb&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:14,873 - api.routes - INFO - Executing query for acpf_gnb_samsung timeseries
+INFO:     127.0.0.1:56022 - "GET /api/v1/timeseries?table=acpf_gnb_samsung&metrics=gnb_endcaddatt&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:16,936 - api.routes - INFO - Executing query for acpf_vcu_samsung timeseries
+INFO:     127.0.0.1:56024 - "GET /api/v1/timeseries?table=acpf_vcu_samsung&metrics=acpf_cpuusageavg_percent&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:18,998 - api.routes - INFO - Executing query for aupf_gnb_samsung timeseries
+INFO:     127.0.0.1:56026 - "GET /api/v1/timeseries?table=aupf_gnb_samsung&metrics=gnb_s5nr_totalerabsetupfailurerate_pct&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:21,067 - api.routes - INFO - Executing query for aupf_vcu_samsung timeseries
+INFO:     127.0.0.1:56029 - "GET /api/v1/timeseries?table=aupf_vcu_samsung&metrics=aupf_cpuusageavg_percent&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+2025-12-06 23:42:23,141 - api.routes - INFO - Executing query for aupf_vm_samsung timeseries
+INFO:     127.0.0.1:56031 - "GET /api/v1/timeseries?table=aupf_vm_samsung&metrics=aupfvminterface_inoctets_vm_aupf&searchByProperties=resource.market%3D%3DUS%26resource.region%3D%3DEast&debug=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56033 - "GET /api/v1/timeseries?table=invalid_table_name&metrics=metric1 HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56040 - "GET /api/v1/timeseries?table=mkt_ericsson HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:56043 - "GET /api/v1/timeseries?table=mkt_samsung HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:56045 - "GET /api/v1/timeseries?table=gnb_corning HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:56048 - "GET /api/v1/health HTTP/1.1" 200 OK
