@@ -137,7 +137,8 @@ class TestAPICombinations:
         """Test 1: Basic query with only metrics (minimal required parameters)"""
         params = {
             "table": "mkt_corning",
-            "metrics": "ranmarket_endc_sessions_rn,ranmarket_intra_cu_ho_attempts_number"
+            "metrics": "ranmarket_endc_sessions_rn,ranmarket_intra_cu_ho_attempts_number",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -156,7 +157,8 @@ class TestAPICombinations:
             "table": "mkt_corning",
             "metrics": "ranmarket_endc_sessions_rn,ranmarket_intra_cu_ho_attempts_number",
             "start": "1749992400000",
-            "end": "1750057199000"
+            "end": "1750057199000",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -220,7 +222,8 @@ class TestAPICombinations:
             "metrics": "ranmarket_endc_sessions_rn,ranmarket_intra_cu_ho_attempts_number",
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "1-hour"
+            "requestgranularity": "1-hour",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -240,7 +243,8 @@ class TestAPICombinations:
         params = {
             "table": "mkt_corning",
             "metrics": "ranmarket_endc_sessions_rn",
-            "properties": "market,region,technology"
+            "properties": "market,region,technology",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -262,7 +266,8 @@ class TestAPICombinations:
             "metrics": "ranmarket_endc_sessions_rn",
             "start": "1749992400000",
             "end": "1750057199000",
-            "orderBy": "time+"
+            "orderBy": "time+",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -284,7 +289,8 @@ class TestAPICombinations:
             "metrics": "ranmarket_endc_sessions_rn",
             "start": "1749992400000",
             "end": "1750057199000",
-            "orderBy": "time-"
+            "orderBy": "time-",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -351,7 +357,8 @@ class TestAPICombinations:
             "metrics": ",".join(metrics),
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "1-hour"
+            "requestgranularity": "1-hour",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -396,7 +403,8 @@ class TestAPICombinations:
             "metrics": "ranmarket_endc_sessions_rn",
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "30-minute"
+            "requestgranularity": "30-minute",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -412,7 +420,8 @@ class TestAPICombinations:
             "metrics": "ranmarket_endc_sessions_rn",
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "1-day"
+            "requestgranularity": "1-day",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)
@@ -428,7 +437,8 @@ class TestAPICombinations:
             "table": "mkt_corning",
             "metrics": "ranmarket_endc_sessions_rn",
             "start": "1749992400000",  # Using Unix timestamp format as per requirements
-            "end": "1750057199000"
+            "end": "1750057199000",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response)

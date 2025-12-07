@@ -187,7 +187,8 @@ class TestAllTables:
         metrics = self.get_metrics_for_table(table_name).split(',')[0]  # Use first metric only
         params = {
             "table": table_name,
-            "metrics": metrics
+            "metrics": metrics,
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -206,7 +207,8 @@ class TestAllTables:
             "table": table_name,
             "metrics": metrics,
             "start": "1749992400000",
-            "end": "1750057199000"
+            "end": "1750057199000",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -275,7 +277,8 @@ class TestAllTables:
             "metrics": metrics,
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "1-hour"
+            "requestgranularity": "1-hour",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -293,7 +296,8 @@ class TestAllTables:
         params = {
             "table": table_name,
             "metrics": metrics,
-            "properties": "market,id"
+            "properties": "market,id",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -316,7 +320,8 @@ class TestAllTables:
             "metrics": metrics,
             "start": "1749992400000",
             "end": "1750057199000",
-            "orderBy": "time+"
+            "orderBy": "time+",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -361,7 +366,8 @@ class TestAllTables:
         metrics = self.get_metrics_for_table(table_name)
         params = {
             "table": table_name,
-            "metrics": metrics
+            "metrics": metrics,
+            "searchByProperties": "resource.id==143,144"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -378,7 +384,7 @@ class TestAllTables:
         params = {
             "table": table_name,
             "metrics": metrics,
-            "searchByProperties": "resource.market==US"
+            "searchByProperties": "resource.market==US&resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -402,7 +408,8 @@ class TestAllTables:
             "metrics": metrics,
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "30-minute"
+            "requestgranularity": "30-minute",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -422,7 +429,8 @@ class TestAllTables:
             "metrics": metrics,
             "start": "1749992400000",
             "end": "1750057199000",
-            "requestgranularity": "1-day"
+            "requestgranularity": "1-day",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -442,7 +450,8 @@ class TestAllTables:
             "metrics": metrics,
             "start": "1749992400000",
             "end": "1750057199000",
-            "orderBy": "time-"
+            "orderBy": "time-",
+            "searchByProperties": "resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
@@ -464,7 +473,7 @@ class TestAllTables:
         params = {
             "table": table_name,
             "metrics": metrics,
-            "searchByProperties": "resource.market==US&resource.region==East"
+            "searchByProperties": "resource.market==US&resource.region==East&resource.id==143"
         }
         response = self.make_request(params)
         self.validate_response_structure(response, table_name)
