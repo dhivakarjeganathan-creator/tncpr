@@ -1,0 +1,2 @@
+There can be a possibility that some metrics in the metrics list can be part of one or more tables 18 horizontal tables and also from the vertical table.
+if there are multiple tables names identified inside get_table_name_from_metrics, don't just take the first table name, i want those specific metrics from those tables rather than from the first table. This means, we might need to execute multiple queries against as many number of tables identified.

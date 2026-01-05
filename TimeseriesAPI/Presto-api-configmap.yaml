@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: watsonx-presto-api-config
+  namespace: twbgohaavzwcsai-y-ib-x-002
+  labels:
+    app: watsonx-presto-api
+data:
+  # Database Type - "postgresql" or "presto"
+  DB_TYPE: "presto"
+  
+  # Database Connection Settings
+  DB_HOST: "ibm-lh-lakehouse-presto-01-presto-svc-cpd.apps.vsopco.ws.vici.verizon.com"
+  DB_PORT: "443"
+  DB_NAME: "vran_domain"
+  # DB_NAME: "vran_schema"
+  DB_USER: "sowndsu"
+  
+  # Presto/WatsonX Specific Settings
+  PRESTO_CATALOG: "tampa_sa_catalog"
+  PRESTO_SCHEMA: "vran_domain"
+  # PRESTO_SCHEMA: "vran_schema"
+  
+  # API Configuration
+  API_HOST: "0.0.0.0"
+  API_PORT: "8000"
+  DEBUG: "false"
+  
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: watsonx-presto-api-secrets
+  namespace: twbgohaavzwcsai-y-ib-x-002
+  labels:
+    app: watsonx-presto-api
+type: Opaque
+stringData:
+  # Database password (if needed for Presto)
+  DB_PASSWORD: "SouthLake@312416104"
+  
+  # For PostgreSQL (if switching to PostgreSQL mode)
+  # DB_PASSWORD: "your-postgres-password"

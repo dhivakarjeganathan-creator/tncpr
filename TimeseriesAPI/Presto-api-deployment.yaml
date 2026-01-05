@@ -1,0 +1,96 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: watsonx-presto-api
+  namespace: twbgohaavzwcsai-y-ib-x-002
+  labels:
+    app: watsonx-presto-api
+    component: timeseries-api
+    version: v1.0.1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: watsonx-presto-api
+  template:
+    metadata:
+      labels:
+        app: watsonx-presto-api
+        component: timeseries-api
+        version: v1.2.3
+    spec:
+      containers:
+      - name: watsonx-presto-api
+        image: wsartifactory.ws.vici.verizon.com/cnf-test-docker/ibm-sa/tncp/watsonx-presto-api:v1.2.3
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+          name: http
+          protocol: TCP
+        envFrom:
+        - configMapRef:
+            name: watsonx-presto-api-config
+        - secretRef:
+            name: watsonx-presto-api-secrets
+        volumeMounts:
+        - name: logs
+          mountPath: /opt/logs
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "500m"
+          limits:
+            memory: "8Gi"
+            cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 30
+          failureThreshold: 5
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8000
+          initialDelaySeconds: 15
+          periodSeconds: 10
+          timeoutSeconds: 10
+          failureThreshold: 5
+          successThreshold: 1
+        startupProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 10
+          failureThreshold: 30
+      volumes:
+      - name: logs
+        emptyDir: {}
+      imagePullSecrets:
+      - name: wsartifactory
+      restartPolicy: Always
+      securityContext:
+        runAsNonRoot: true
+        fsGroup: 1000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: watsonx-presto-api-service
+  namespace: twbgohaavzwcsai-y-ib-x-002
+  labels:
+    app: watsonx-presto-api
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8000
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: watsonx-presto-api

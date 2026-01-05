@@ -1,0 +1,20 @@
+the function _generate_threshold_query is not generating properly.
+issue in the _parse_condition function. 
+
+the parse function uses the pydantic process using the below json. But the json should also include "id" which is missing.
+
+parsed = {
+            'type': None,
+            'ranMarket': None,
+            'Band': None
+        }
+
+
+can you run this query against the database, you will be able to find the "id" condition and the possible combinations of how the "id" needs to be part of the search condition.
+ condition_query = f"""
+            SELECT condition
+            FROM group_configurations
+            WHERE group_name = '{thresholdsourceid}'
+            """
+
+can you help fix the _parse_condition and _build_enrichment_query for the parsed_conditions?

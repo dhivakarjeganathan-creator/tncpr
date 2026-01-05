@@ -87,20 +87,21 @@ class ThresholdProcessor:
     
     def _parse_condition(self, condition: str) -> Dict[str, Any]:
         """
-        Parse the condition string to extract type, ranMarket, and Band information.
+        Parse the condition string to extract type, ranMarket, Band, and id information.
         
         Args:
             condition: The condition string from group_configurations
             
         Returns:
-            Dictionary containing parsed type, ranMarket, and Band conditions
+            Dictionary containing parsed type, ranMarket, Band, and id conditions
         """
         import re
         
         parsed = {
             'type': None,
             'ranMarket': None,
-            'Band': None
+            'Band': None,
+            'id': None
         }
         
         try:
@@ -142,6 +143,49 @@ class ThresholdProcessor:
                     else:
                         parsed['Band'] = {'type': 'equals', 'value': bands[0]}
             
+            # Extract id condition
+            # First check for multiple id.like() patterns in OR conditions
+            id_like_patterns = re.findall(r"resource\.id\.like\(['\"]([^'\"]+)['\"]\)", condition)
+            if id_like_patterns:
+                # Handle multiple like patterns in OR conditions
+                if len(id_like_patterns) > 1:
+                    # Convert patterns: replace * with %, ^ with nothing (start anchor), | with OR
+                    processed_patterns = []
+                    for pattern in id_like_patterns:
+                        # Handle pipe-separated patterns within a single like
+                        if '|' in pattern:
+                            # Split by pipe and process each
+                            sub_patterns = pattern.split('|')
+                            for sub_pattern in sub_patterns:
+                                processed = sub_pattern.replace('*', '%').replace('^', '')
+                                processed_patterns.append(processed)
+                        else:
+                            processed = pattern.replace('*', '%').replace('^', '')
+                            processed_patterns.append(processed)
+                    parsed['id'] = {'type': 'like_or', 'values': processed_patterns}
+                else:
+                    # Single like pattern - check if it contains pipe separator
+                    pattern = id_like_patterns[0]
+                    if '|' in pattern:
+                        # Split by pipe and create OR conditions
+                        sub_patterns = pattern.split('|')
+                        processed_patterns = [p.replace('*', '%').replace('^', '') for p in sub_patterns]
+                        parsed['id'] = {'type': 'like_or', 'values': processed_patterns}
+                    else:
+                        # Single pattern: replace * with %, ^ with nothing (start anchor)
+                        processed_pattern = pattern.replace('*', '%').replace('^', '')
+                        parsed['id'] = {'type': 'like', 'value': processed_pattern}
+            else:
+                # Handle equals conditions for id
+                id_equals_match = re.search(r"resource\.id\s*==\s*['\"]([^'\"]+)['\"]", condition)
+                if id_equals_match:
+                    # Find all id values in OR conditions
+                    ids = re.findall(r"resource\.id\s*==\s*['\"]([^'\"]+)['\"]", condition)
+                    if len(ids) > 1:
+                        parsed['id'] = {'type': 'in', 'values': ids}
+                    else:
+                        parsed['id'] = {'type': 'equals', 'value': ids[0]}
+            
             logger.info(f"Parsed conditions: {parsed}")
             return parsed
             
@@ -154,7 +198,7 @@ class ThresholdProcessor:
         Build the enrichmentdetails query based on parsed conditions.
         
         Args:
-            parsed_conditions: Dictionary containing parsed type, ranMarket, and Band conditions
+            parsed_conditions: Dictionary containing parsed type, ranMarket, Band, and id conditions
             
         Returns:
             Generated SQL query string
@@ -190,6 +234,21 @@ class ThresholdProcessor:
                 query_parts.append(f"AND band in ('{values}')")
             elif band['type'] == 'equals':
                 query_parts.append(f"AND band = '{band['value']}'")
+        
+        # Add id condition
+        if parsed_conditions.get('id'):
+            id_condition = parsed_conditions['id']
+            if id_condition['type'] == 'like':
+                query_parts.append(f"AND fullname like '{id_condition['value']}'")
+            elif id_condition['type'] == 'like_or':
+                # Handle multiple like patterns with OR
+                like_conditions = " OR ".join([f"fullname like '{value}'" for value in id_condition['values']])
+                query_parts.append(f"AND ({like_conditions})")
+            elif id_condition['type'] == 'in':
+                values = "', '".join(id_condition['values'])
+                query_parts.append(f"AND fullname in ('{values}')")
+            elif id_condition['type'] == 'equals':
+                query_parts.append(f"AND fullname = '{id_condition['value']}'")
         
         return " ".join(query_parts), type
 
@@ -398,9 +457,9 @@ class ThresholdProcessor:
         logger.info(f"Lowerlimit: {lowerlimit}, Upperlimit: {upperlimit}")
         conditions = []
         if lowerlimit is not None and lowerlimit > 0:
-            conditions.append(f"CAST({metricname} AS NUMERIC) <= {lowerlimit}")
+            conditions.append(f"CAST({metricname} AS NUMERIC) >= {lowerlimit}")
         if upperlimit is not None and upperlimit > 0:
-            conditions.append(f"CAST({metricname} AS NUMERIC) >= {upperlimit}")
+            conditions.append(f"CAST({metricname} AS NUMERIC) <= {upperlimit}")
         
         logger.info(f"Conditions: {conditions}")
         
@@ -435,9 +494,9 @@ class ThresholdProcessor:
         # Add metric value conditions
         conditions = []
         if lowerlimit is not None and lowerlimit > 0:
-            conditions.append(f"CAST(udc_config_value AS NUMERIC) <= {lowerlimit}")
+            conditions.append(f"CAST(udc_config_value AS NUMERIC) >= {lowerlimit}")
         if upperlimit is not None and upperlimit > 0:
-            conditions.append(f"CAST(udc_config_value AS NUMERIC) >= {upperlimit}")
+            conditions.append(f"CAST(udc_config_value AS NUMERIC) <= {upperlimit}")
         
         if conditions:
             query_parts.append(f"AND ({' AND '.join(conditions)})")
@@ -495,9 +554,9 @@ class ThresholdProcessor:
                     ,LAG(udc_config_value, {occ}) OVER (PARTITION BY "Id", udc_config_name ORDER BY timestamp) AS prev{occ}
                     """
                     if lowerlimit is not None and lowerlimit > 0:
-                        occwhereclause += f""" and prev{occ}::numeric <= {lowerlimit} """
+                        occwhereclause += f""" and prev{occ}::numeric >= {lowerlimit} """
                     if upperlimit is not None and upperlimit > 0:
-                        occwhereclause += f""" and prev{occ}::numeric >= {upperlimit} """
+                        occwhereclause += f""" and prev{occ}::numeric <= {upperlimit} """
             else:
                 queryclause = f"""
                 with ordered as 
@@ -519,9 +578,9 @@ class ThresholdProcessor:
                     ,LAG({metric_column}, {occ}) OVER (PARTITION BY id ORDER BY timestamp) AS prev{occ}
                     """
                     if lowerlimit is not None and lowerlimit > 0:
-                        occwhereclause += f""" and prev{occ}::numeric <= {lowerlimit} """
+                        occwhereclause += f""" and prev{occ}::numeric >= {lowerlimit} """
                     if upperlimit is not None and upperlimit > 0:
-                        occwhereclause += f""" and prev{occ}::numeric >= {upperlimit} """
+                        occwhereclause += f""" and prev{occ}::numeric <= {upperlimit} """
                     
                     
             query = queryclause + occselectclause + fromclause + finalclause + occwhereclause
