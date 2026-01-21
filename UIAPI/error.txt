@@ -1,0 +1,7 @@
+[{'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_dl_gtp_data_volume_rn_mb', 'entity': 0, 'time': '', 'parentId': '', 'value': 322.92}, {'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_endc_sessions_rn', 'entity': 0, 'time': '', 'parentId': '', 'value': 109.0}, {'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_dl_gtp_data_volume_rn_mb', 'entity': 0, 'time': '', 'parentId': '', 'value': 339.52}, {'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_endc_sessions_rn', 'entity': 0, 'time': '', 'parentId': '', 'value': 119.0}, {'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_dl_gtp_data_volume_rn_mb', 'entity': 0, 'time': '', 'parentId': '', 'value': 321.22}, {'parent': 0, 'timestamp': None, 'scope': 'ibm-itnm', 'entityName': '143', 'parentName': '', 'date': '', 'metric': 'ranmarket_endc_sessions_rn', 'entity': 0, 'time': '', 'parentId': '', 'value': 141.0}]
+
+but the below fields are not populated properly, can you help
+
+"timestamp":1768420800000, - this will be the timestamp column in julian format, not it is populated as None
+"date":"2026-01-14", - this will the date part in the timestamp column
+"time":"08:00 PM", - this will the time part in the timestamp column
