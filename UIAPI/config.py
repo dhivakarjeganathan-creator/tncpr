@@ -52,6 +52,10 @@ class Config:
     RULE_EXECUTION_TABLE_NAME: Optional[str] = os.getenv(
         "RULE_EXECUTION_TABLE_NAME"
     )
+    ENRICHMENT_TABLE_NAME: str = os.getenv("ENRICHMENT_TABLE_NAME", "enrichmentlookup")
+    ENRICHMENT_TABLE_ENTITY_COLUMN: str = os.getenv(
+        "ENRICHMENT_TABLE_ENTITY_COLUMN", "entityid"
+    )
 
     # Allowed tables
     ALLOWED_TABLES: Set[str] = {

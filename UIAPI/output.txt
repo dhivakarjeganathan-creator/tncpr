@@ -1,0 +1,2 @@
+status: 400
+{"detail":"Enrichment table 'enrichmentlookup' not found in schema 'public'"}

@@ -106,6 +106,24 @@ def normalize_value(value: Any, force_double: bool) -> Any:
         return 0.0
 
 
+def parse_properties(properties: Optional[str]) -> List[str]:
+    if not properties:
+        return []
+    return [prop.strip() for prop in properties.split(",") if prop.strip()]
+
+
+def normalize_metric_for_column(metric: str) -> str:
+    return metric.replace(".", "_")
+
+
+def build_metric_lookup(metrics: List[str]) -> Dict[str, str]:
+    lookup: Dict[str, str] = {}
+    for metric in metrics:
+        lookup[metric] = metric
+        lookup[normalize_metric_for_column(metric)] = metric
+    return lookup
+
+
 def build_in_condition(
     column_sql: str, values: List[str], params: List[Any], db_type: str
 ) -> str:
@@ -174,7 +192,7 @@ def is_vertical_table(table_name: str) -> bool:
 
 def get_table_columns(table_name: str) -> List[str]:
     cached = TABLE_COLUMNS_CACHE.get(table_name)
-    if cached is not None:
+    if cached is not None and cached:
         return cached
 
     if Config.is_postgresql():
@@ -194,7 +212,8 @@ def get_table_columns(table_name: str) -> List[str]:
 
     rows = db_connection.execute_query(query, params)
     columns = [row.get("column_name") for row in rows if row.get("column_name")]
-    TABLE_COLUMNS_CACHE[table_name] = columns
+    if columns:
+        TABLE_COLUMNS_CACHE[table_name] = columns
     return columns
 
 
@@ -226,6 +245,79 @@ def get_column_type(table_name: str, column_name: str) -> Optional[str]:
     return data_type
 
 
+def resolve_enrichment_columns(
+    table_name: str, properties: List[str]
+) -> Tuple[str, List[str]]:
+    table_columns = get_table_columns(table_name)
+    if not table_columns:
+        schema = Config.DB_SCHEMA if Config.is_postgresql() else (Config.PRESTO_SCHEMA or Config.DB_NAME)
+        raise ValidationError(
+            f"Enrichment table '{table_name}' not found in schema '{schema}'"
+        )
+    column_map = {col.lower(): col for col in table_columns}
+
+    entity_column = column_map.get(Config.ENRICHMENT_TABLE_ENTITY_COLUMN.lower())
+    if not entity_column:
+        entity_column = column_map.get("entityid")
+    if not entity_column:
+        raise ValidationError(
+            f"Enrichment table is missing entity column. Found: {', '.join(table_columns)}"
+        )
+
+    resolved_properties = []
+    missing = []
+    for prop in properties:
+        resolved = column_map.get(prop.lower())
+        if resolved:
+            resolved_properties.append(resolved)
+        else:
+            missing.append(prop)
+
+    if missing:
+        raise ValidationError(
+            f"Enrichment properties not found: {', '.join(missing)}"
+        )
+
+    return entity_column, resolved_properties
+
+
+def fetch_enrichment_values(
+    entity_ids: List[str], properties: List[str]
+) -> Dict[str, Dict[str, Any]]:
+    if not entity_ids or not properties:
+        return {}
+
+    table_name = Config.ENRICHMENT_TABLE_NAME
+    entity_column, resolved_properties = resolve_enrichment_columns(table_name, properties)
+
+    params: List[Any] = []
+    entity_sql = quote_identifier(entity_column)
+    select_sql = ", ".join([entity_sql] + [quote_identifier(col) for col in resolved_properties])
+    where_clause = build_in_condition(entity_sql, entity_ids, params, Config.DB_TYPE)
+
+    query = (
+        f"SELECT {select_sql} "
+        f"FROM {quote_identifier(table_name)} "
+        f"WHERE {where_clause}"
+    )
+
+    rows = db_connection.execute_query(query, params)
+
+    enrichment: Dict[str, Dict[str, Any]] = {}
+    for row in rows:
+        entity_value = row.get(entity_column)
+        if entity_value is None:
+            continue
+        entity_key = str(entity_value)
+        values: Dict[str, Any] = {}
+        for prop, resolved in zip(properties, resolved_properties):
+            value = row.get(resolved)
+            values[prop] = "" if value is None else value
+        enrichment[entity_key] = values
+
+    return enrichment
+
+
 def map_metrics_to_columns(table_name: str, metrics: List[str]) -> List[str]:
     columns = get_table_columns(table_name)
     column_map = {col.lower(): col for col in columns}
@@ -244,6 +336,33 @@ def map_metrics_to_columns(table_name: str, metrics: List[str]) -> List[str]:
         raise ValidationError(
             f"Metrics not found in table '{table_name}': {', '.join(missing)}"
         )
+    return mapped
+
+
+def map_metric_columns(
+    table_name: str, metrics: List[str]
+) -> List[Tuple[str, str]]:
+    columns = get_table_columns(table_name)
+    column_map = {col.lower(): col for col in columns}
+    mapped: List[Tuple[str, str]] = []
+    missing: List[str] = []
+
+    for metric in metrics:
+        normalized = normalize_metric_for_column(metric)
+        if normalized in columns:
+            mapped.append((metric, normalized))
+            continue
+        resolved = column_map.get(normalized.lower())
+        if resolved:
+            mapped.append((metric, resolved))
+        else:
+            missing.append(metric)
+
+    if missing:
+        raise ValidationError(
+            f"Metrics not found in table '{table_name}': {', '.join(missing)}"
+        )
+
     return mapped
 
 
@@ -276,15 +395,17 @@ def get_metrics_by_table(metrics: List[str]) -> Dict[str, List[str]]:
         )
 
     query_params: List[Any] = []
+    metric_lookup = build_metric_lookup(metrics)
+    lookup_values = list(metric_lookup.keys())
     column_sql = quote_identifier(metric_column)
     table_sql = quote_identifier(table_column)
 
     if Config.is_postgresql():
-        placeholders = ", ".join(["%s"] * len(metrics))
-        query_params.extend(metrics)
+        placeholders = ", ".join(["%s"] * len(lookup_values))
+        query_params.extend(lookup_values)
         metrics_filter = f"{column_sql} IN ({placeholders})"
     else:
-        escaped = [f"'{escape_literal(m)}'" for m in metrics]
+        escaped = [f"'{escape_literal(m)}'" for m in lookup_values]
         metrics_filter = f"{column_sql} IN ({', '.join(escaped)})"
 
     query = (
@@ -306,10 +427,11 @@ def get_metrics_by_table(metrics: List[str]) -> Dict[str, List[str]]:
         metric_value = row.get("metric") or row.get(metric_column)
         if not table_value or not metric_value:
             continue
+        original_metric = metric_lookup.get(str(metric_value), str(metric_value))
         resolved = resolve_table_name(str(table_value))
         if not resolved:
             continue
-        metrics_by_table.setdefault(resolved, []).append(str(metric_value))
+        metrics_by_table.setdefault(resolved, []).append(original_metric)
 
     return metrics_by_table
 
@@ -419,6 +541,10 @@ async def get_ui_timeseries(
     metricDoubleValue: Optional[bool] = Query(False, description="Return metric values as double"),
     fillUpNull: Optional[bool] = Query(None, description="Ignored"),
     sort: Optional[str] = Query(None, description="Sort order, e.g. +timestamp or -timestamp"),
+    properties: Optional[str] = Query(
+        None,
+        description="Comma-separated enrichment properties from enrichmentlookup table",
+    ),
 ):
     try:
         metrics_list = [m.strip() for m in metrics.split(",") if m.strip()]
@@ -431,6 +557,7 @@ async def get_ui_timeseries(
         validated_start = validate_timestamp(start)
         validated_end = validate_timestamp(end)
         parsed_sort = normalize_sort(sort)
+        properties_list = parse_properties(properties)
 
         metrics_by_table = get_metrics_by_table(validated_metrics)
         if not metrics_by_table:
@@ -454,7 +581,8 @@ async def get_ui_timeseries(
                 )
             else:
                 validate_required_columns(table_name, ["timestamp", "id"])
-                mapped_metrics = map_metrics_to_columns(table_name, table_metrics)
+                metric_pairs = map_metric_columns(table_name, table_metrics)
+                mapped_metrics = [pair[1] for pair in metric_pairs]
                 query, params = build_horizontal_query(
                     table_name,
                     mapped_metrics,
@@ -498,8 +626,8 @@ async def get_ui_timeseries(
                     timestamp_val = to_epoch_millis(row.get("timestamp"))
                     date_str, time_str = format_date_time(timestamp_val)
                     entity_name = row.get("id")
-                    for metric_name in mapped_metrics:
-                        if metric_name not in row:
+                    for original_metric, column_metric in metric_pairs:
+                        if column_metric not in row:
                             continue
                         results.append(
                             {
@@ -509,13 +637,24 @@ async def get_ui_timeseries(
                                 "entityName": entity_name,
                                 "parentName": "",
                                 "date": date_str,
-                                "metric": metric_name,
+                                "metric": original_metric,
                                 "entity": 0,
                                 "time": time_str,
                                 "parentId": "",
-                                "value": normalize_value(row.get(metric_name), metricDoubleValue),
+                                "value": normalize_value(row.get(column_metric), metricDoubleValue),
                             }
                         )
+
+        if properties_list:
+            entity_ids = sorted(
+                {str(item.get("entityName")) for item in results if item.get("entityName")}
+            )
+            enrichment_map = fetch_enrichment_values(entity_ids, properties_list)
+            for item in results:
+                entity_key = str(item.get("entityName") or "")
+                enrichment_values = enrichment_map.get(entity_key, {})
+                for prop in properties_list:
+                    item[prop] = enrichment_values.get(prop, "")
 
         if parsed_sort:
             reverse = parsed_sort[1] == "DESC"

@@ -1,18 +1,19 @@
 I have to create new API in python using FAST API. The name of the api is "uitimeseries"
 
-https://ui:30021/service/dataset/metric/uitimeseries?entityNames=07393063251,07393032080,07191073592,07191022310,07191022164,07191032361,07292122763&metrics=savg_DU.Samsung.Performance.Sub6.UPNY,savg_DU.Samsung.Performance.Sub3.UPNY&start=1768417415100&end=1768435415100&metricDoubleValue=true&fillUpNull=false&sort=%2Btimestamp
+https://ui:30021/service/dataset/metric/uitimeseries?entityNames=07393063251,07393032080,07191073592,07191022310,07191022164,07191032361,07292122763&metrics=savg_DU.Samsung.Performance.Sub6.UPNY,savg_DU.Samsung.Performance.Sub3.UPNY&start=1768417415100&end=1768435415100&metricDoubleValue=true&fillUpNull=false&sort=%2Btimestamp&properties=NFName,NFType,Market
 
 entityNames - is the resources list "id" column in the tables
-metrics - list of metrics 
-start - start date and time in julian format
-end - end date an time in julian format
+metrics - list of metrics comma seperated. The metrics can have ".", which needs to be replaced to "_" before querying the database column.
+start - start date and time in epoch format
+end - end date an time in epoch format
 metricDoubleValue - if true, all the values should be returned in double format
 fillUpNull - ignore this parameter
 sort - sort the data returned based on this column
+properties - columns that needs to be populated from the enrichmentlookup table comma separated. This can be empty or the properties parameter is optional.
 
 use the metricsandtables table to identify the table where to query to get the data. The "metrics" parameter should be used to query the "metrics" column in metricsandtables to identify the table names. If there are more than one distinct table name, split the query to include only those metrics from those tables and execute the query to retrieve the data. Combine the results in the following json format below
 
-[{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022164","parentName":"0719102","date":"2026-01-14","metric":"savg_DU.Samsung.Performance.Sub6.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022164","parentName":"0719102","date":"2026-01-14","metric":"savg_DU.Samsung.Performance.Sub3.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022310","parentName":"0719102","date":"2026-01-14","metric":"savg_DU.Samsung.Performance.Sub6.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022310","parentName":"0719102","date":"2026-01-14","metric":"savg_DU.Samsung.Performance.Sub3.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0}]
+[{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022164","parentName":"0719102","date":"2026-01-14","NFName":"abcd", "NFType":"adpf", "Market":"143", "metric":"savg_DU.Samsung.Performance.Sub6.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022164","parentName":"0719102","date":"2026-01-14","NFName":"abcdg", "NFType":"acpf", "Market":"113", "metric":"savg_DU.Samsung.Performance.Sub3.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022310","parentName":"0719102","date":"2026-01-14","NFName":"abcdf", "NFType":"aupf", "Market":"123", "metric":"savg_DU.Samsung.Performance.Sub6.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0},{"parent":0,"timestamp":1768420800000,"scope":"ibm-itnm","entityName":"07191022310","parentName":"0719102","date":"2026-01-14","NFName":"abcde", "NFType":"aaa", "Market":"133", "metric":"savg_DU.Samsung.Performance.Sub3.UPNY","entity":0,"time":"08:00 PM","parentId":"0719102","value":0.0}]
 
 data for these tables will be usually populated from one of the 18 tables and the metrics will be column names (stored horizontally)
 
@@ -38,16 +39,21 @@ sector_ericsson
 also there is another table ruleexecutionresults (store vertically), and the metrics name will be a value for udc_config_name column and the value will be in the udc_config_value
 
 "parent":0, - this will be always 0
-"timestamp":1768420800000, - this will be the timestamp column in julian format
+"timestamp":1768420800000, - this will be the timestamp column in epoch format
 "scope":"ibm-itnm", - this will always be "ibm-itnm"
 "entityName":"07191022164", - this is column "id"
 "parentName":"0719102", - this will be empty
 "date":"2026-01-14", - this will the date part in the timestamp column
-"metric":"savg_DU.Samsung.Performance.Sub6.UPNY", - this is the metric column name
+"metric":"savg_DU.Samsung.Performance.Sub6.UPNY", - this is the metric column name. This should be the exact parameter that is sent as part of the querystring and should not be the replaced one by "_".
 "entity":0, - this will be always 0
 "time":"08:00 PM", - this will the time part in the timestamp column
 "parentId":"0719102", - this will be empty
 "value":0.0 - this is the value of the metric
+"NFName":"abcd" - this is the value that needs to be populated from enrichmentlookup table for the entity.
+"NFType":"adpf" - this is the value that needs to be populated from enrichmentlookup table for the entity.
+"Market":"113" - this is the value that needs to be populated from enrichmentlookup table for the entity.
+
+
 
 
 This should work for both PostgreSQL and watsonx.data presto engine.
@@ -64,3 +70,21 @@ DB_USER=postgres
 DB_PASSWORD=test@1234
 
 I want to write a simple test file to call the API and return the result.
+
+
+I want to create a new enrichmentlookup table with 9 columns
+entityid
+nfname
+nftype
+region
+market
+domain
+datacenter
+band
+transcelltype
+frequency
+duname
+primarysite_name
+
+
+

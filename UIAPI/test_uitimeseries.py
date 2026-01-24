@@ -12,12 +12,13 @@ def main() -> int:
 
     params = {
         "entityNames": "143",
-        "metrics": "ranmarket_endc_sessions_rn,ranmarket_dl_gtp_data_volume_rn_mb",
+        "metrics": "ranmarket.endc_sessions_rn,ranmarket.dl_gtp_data_volume_rn_mb",
         "start": "1668417415100",
         "end": "1768435415100",
         "metricDoubleValue": "true",
         "fillUpNull": "false",
         "sort": "timestamp",
+        "properties": "NFName,NFType,transcelltype",
     }
 
     response = requests.get(endpoint, params=params, timeout=60)
