@@ -1,0 +1,120 @@
+I have to create new API in python using FAST API. The name of the api is "summary"
+
+curl https://ui:30021/service/dataset/metric/summary?metrics=GNB.5GNR_DL_MAC_Volume_MB&start=1767139200000&end=1768348799000&searchByProperties=resource.Market=='149'%20AND%20resource.type==%27GNB%27&flatten=true&properties=type,NFName&metricDoubleValue=true&suppressSummary=true
+
+searchByProperties parameter have the below combination; there can be one or more "resource." in the search.
+
+resource.id - mapped to entityid in enrichmentlookup table
+resource.type - mapped to type in enrichmentlookup table
+resource.market - mapped to market in enrichmentlookup table
+resource.nfname - mapped to nfname in enrichmentlookup table
+resource.nftype - mapped to nftype in enrichmentlookup table
+resource.region - mapped to region in enrichmentlookup table
+resource.domain - mapped to domain in enrichmentlookup table
+resource.datacenter - mapped to datacenter in enrichmentlookup table
+resource.band - mapped to band in enrichmentlookup table
+resource.transcelltype - mapped to transcelltype in enrichmentlookup table
+resource.frequency - mapped to frequency in enrichmentlookup table
+resource.duname - mapped to duname in enrichmentlookup table
+resource.primarysite_name - mapped to primarysite_name in enrichmentlookup table
+
+Search the enrichmentlookup table for the searchByProperties parameter and get the list of entityid. 
+properties - columns that needs to be populated from the enrichmentlookup table comma separated. This can be empty or the properties parameter is optional.
+flatten - will always be true. This parameter is optional
+metrics - list of metrics comma seperated. The metrics can have ".", which needs to be replaced to "_" before querying the database column.
+start - start date and time in epoch format
+end - end date an time in epoch format
+metricDoubleValue - if true, all the values should be returned in double format
+suppressSummary=true - will always be true
+
+use the metricsandtables table to identify the table where to query to get the data. The "metrics" parameter should be used to query the "metrics" column in metricsandtables to identify the table names. If there are more than one distinct table name, split the query to include only those metrics from those tables and execute the query to retrieve the data. Combine the results in the following json format below
+
+[{
+  "displayName": "1496972",
+  "parent": 0,
+  "endTimeStamp": 1768348799000,
+  "scope": "ibm-itnm",
+  "startTimeStamp": 1767139200000,
+  "rank": 0,
+  "entityName": "1496972",
+  "parentName": "149",
+  "NFName": "Ericsson-GNB-1496972",
+  "rawEntityName": "1496972",
+  "rawParentName": "149",
+  "entity": 0,
+  "type": "GNB",
+  "GNB.5GNR_DL_MAC_Volume_MB": 1525.43234375,
+  "parentId": "149"
+},{
+  "displayName": "1497400",
+  "parent": 0,
+  "endTimeStamp": 1768348799000,
+  "scope": "ibm-itnm",
+  "startTimeStamp": 1767139200000,
+  "rank": 0,
+  "entityName": "1497400",
+  "parentName": "149",
+  "NFName": "Ericsson-GNB-1497400",
+  "rawEntityName": "1497400",
+  "rawParentName": "149",
+  "entity": 0,
+  "type": "GNB",
+  "GNB.5GNR_DL_MAC_Volume_MB": 5125.380729166666,
+  "parentId": "149"
+}]
+
+data for these tables will be usually populated from one of the 18 tables and the metrics will be column names (stored horizontally)
+
+acpf_gnb_samsung
+aupf_gnb_samsung
+acpf_vcu_samsung
+aupf_vcu_samsung
+aupf_vm_samsung
+carrier_corning
+carrier_samsung
+carrier_ericsson
+du_corning
+du_samsung
+gnb_corning
+gnb_ericsson
+mkt_corning
+mkt_samsung
+mkt_ericsson
+sector_corning
+sector_samsung
+sector_ericsson
+
+also there is another table ruleexecutionresults (store vertically), and the metrics name will be a value for udc_config_name column and the value will be in the udc_config_value
+
+
+  "displayName": "1496972" - this is the "id" column in the table
+  "parent": 0, - this will always be "0"
+  "endTimeStamp": 1768348799000 - this is the "end" parameter in the curl
+  "scope": "ibm-itnm" - this will always be "ibm-itnm"
+  "startTimeStamp": 1767139200000 - this is the "start" parameter in the curl
+  "rank": 0, - this will always be "0"
+  "entityName": "1496972"  - this is the "id" column in the table
+  "parentName": "149"  - this will always be ""
+  "NFName": "Ericsson-GNB-1496972" - this needs be populated from "nfname" in enrichmentlookup able
+  "rawEntityName": "1496972"- this is the "id" column in the table
+  "rawParentName": "149" this will always be ""
+  "entity": 0 - this will always be "0"
+  "type": "GNB" - this needs be populated from "type" in enrichmentlookup table
+  "GNB.5GNR_DL_MAC_Volume_MB": 1525.43234375 - this is average of all the values for this metrics from one of the 19 tables above for the given start and end timestamp from the table
+  "parentId": "149" - this will always be "0"
+
+
+This should work for both PostgreSQL and watsonx.data presto engine.
+Put the configuration in a .env file and not config.py
+I want to add a configuration to determine what database it is going to connect to either postgresql or watsonx.data
+
+Here is the database credentials to connect to postgresql. 
+Use these credentials to read the tables (columns) and make the necessary validations.
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hierarchy_db
+DB_USER=postgres
+DB_PASSWORD=test@1234
+
+I want to write a simple test file to call the API and return the result.

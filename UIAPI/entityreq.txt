@@ -1,0 +1,70 @@
+I have to create new API in python using FAST API. The name of the api is "entity"
+
+curl https://ui:30021/service/dataset/metric/entity?searchByProperties=resource.id==%27020020781%27%20AND%20resource.type==%27ENB%27&format=json&properties=NFName,Region,id&entityResourceTypes=Carrier5G&flatten=true
+
+searchByProperties parameter have the below combination; there can be one or more "resource." in the search.
+
+resource.id - mapped to entityid in enrichmentlookup table
+resource.type - mapped to type in enrichmentlookup table
+resource.market - mapped to market in enrichmentlookup table
+resource.nfname - mapped to nfname in enrichmentlookup table
+resource.nftype - mapped to nftype in enrichmentlookup table
+resource.region - mapped to region in enrichmentlookup table
+resource.domain - mapped to domain in enrichmentlookup table
+resource.datacenter - mapped to datacenter in enrichmentlookup table
+resource.band - mapped to band in enrichmentlookup table
+resource.transcelltype - mapped to transcelltype in enrichmentlookup table
+resource.frequency - mapped to frequency in enrichmentlookup table
+resource.duname - mapped to duname in enrichmentlookup table
+resource.primarysite_name - mapped to primarysite_name in enrichmentlookup table
+
+Search the enrichmentlookup table for the searchByProperties parameter and get the list of entityid. This parameter is mandatory
+properties - columns that needs to be populated from the enrichmentlookup table comma separated. This can be empty or the properties parameter is optional.
+format - will always be json. This parameter is optional
+flatten - will always be true. This parameter is optional
+entityResourceTypes - should be mapped to type column in enrichmentlookup and should be a search parameter along with searchByProperties. This parameter is optional
+
+for the curl above the output will look like this
+
+[{"entityId":0,"shortDisplayName":"0.00","Region":"New England","entityName":"0.00","id":"0600021311480-7.00-0.00","parentName":"0600021311480-7.00","NFName":"samsungadpf-0600021311480","parentEntityId":0,"rawEntityName":"0600021311480-7.00-0.00","rawParentName":"0600021311480-7.00","parentId":"0600021311480-7.00"},
+{"entityId":0,"shortDisplayName":"0.00","Region":"New England","Market":"060","entityName":"0.00","id":"0600015311480-175.00-0.00","parentName":"0600015311480-175.00","NFName":"samsungadpf-0600015311480","parentEntityId":0,"rawEntityName":"0600015311480-175.00-0.00","rawParentName":"0600015311480-175.00","parentId":"0600015311480-175.00"}]
+
+"entityId":0 - will always be 0
+"shortDisplayName":"0.00" - will always be "0.00"
+"Region":"New England" - will be mapped to region column in enrichmentlookup table 
+"entityName":"0.00"  - will always be "0.00"
+"id":"0600015311480-175.00-0.00"  - will be mapped to entityid column in enrichmentlookup table 
+"parentName":"0600015311480-175.00" - will always be "0"
+"NFName":"samsungadpf-0600015311480"  - will be mapped to nfname column in enrichmentlookup table 
+"parentEntityId":0  - will always be 0
+"rawEntityName":"0600015311480-175.00-0.00"  - will always be "0"
+"rawParentName":"0600015311480-175.00"  - will always be "0"
+"parentId":"0600015311480-175.00"  - will always be "0"
+
+
+second curl - 
+curl https://ui:30021/service/dataset/metric/entity?searchByProperties=resource.Market==%27154%27%20AND%20resource.type==%27Carrier%27&flatten=true&properties=NFName,Market,Region,id
+
+The output will look like this for the above curl
+
+[{"entityId":0,"shortDisplayName":"1540-0","Region":"Carolinas/Tennessee","Market":"154","entityName":"1540-0","id":"154454069-0-0","parentName":"454069","NFName":"Ericsson-ENB-454069","parentEntityId":0,"rawEntityName":"154454069-0-0","rawParentName":"454069","parentId":"454069"},
+{"entityId":0,"shortDisplayName":"1540-0","Region":"Carolinas/Tennessee","Market":"154","entityName":"1540-0","id":"154154242-0-0","parentName":"154242","NFName":"Ericsson-ENB-154242","parentEntityId":0,"rawEntityName":"154154242-0-0","rawParentName":"154242","parentId":"154242"}]
+
+
+This should work for both PostgreSQL and watsonx.data presto engine.
+Put the configuration in a .env file and not config.py
+I want to add a configuration to determine what database it is going to connect to either postgresql or watsonx.data
+
+Here is the database credentials to connect to postgresql. 
+Use these credentials to read the tables (columns) and make the necessary validations.
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hierarchy_db
+DB_USER=postgres
+DB_PASSWORD=test@1234
+
+I want to write a simple test file to call the API and return the result.
+
+
+

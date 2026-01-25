@@ -10,5 +10,6 @@ CREATE TABLE enrichmentlookup (
     transcelltype TEXT,
     frequency TEXT,
     duname TEXT,
-    primarysite_name TEXT
+    primarysite_name TEXT,
+    type TEXT
 );
